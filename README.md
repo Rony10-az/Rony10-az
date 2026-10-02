@@ -45,11 +45,11 @@
 
 <br/>
 
-## 🏆 Trofeos
+## 📈 Actividad reciente
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Rony10-az&theme=tokyonight&no-frame=true&row=1&column=6" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
