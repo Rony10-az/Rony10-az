@@ -45,15 +45,13 @@
 
 <br/>
 
-## 📈 Actividad reciente
+## 🐍 Snake de contribuciones
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
-</div>
-
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ## 🌐 Conecta conmigo
 
