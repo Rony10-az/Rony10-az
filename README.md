@@ -14,7 +14,7 @@
 - 🎓 Estudiante de **Ingeniería de Software** en **Tecsup**, Perú
 - 💻 Me proyecto como **Full Stack Developer**: tanto **backend** como **frontend**
 - ⚙️ Aprendiendo **DevOps**: contenedores, despliegues y automatización en la nube
-- 🌱 Actualmente profundizando en **Laravel**, **Docker** y **AWS**
+- 🌱 Actualmente profundizando en **JavaScript**, **Docker** y **AWS**
 - 🤝 Abierto a colaborar en proyectos de desarrollo web
 - 📫 Contacto: **ronnjhost@gmail.com**
 
