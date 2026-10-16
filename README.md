@@ -35,6 +35,8 @@
 
 </div>
 
+<div align="center">
+
 ### Languages
 <img src="https://skillicons.dev/icons?i=js,ts,php,python,java&perline=10" alt="JavaScript, TypeScript, PHP, Python, Java" />
 
@@ -54,6 +56,8 @@
 ### Tools
 <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,figma,postman&perline=10" alt="Git, GitHub, VS Code, IntelliJ IDEA, Figma, Postman" />
 <img src="https://img.shields.io/badge/Bruno-111111?style=for-the-badge&logo=bruno&logoColor=white" alt="Bruno" />
+
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
