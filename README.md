@@ -75,17 +75,9 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rony10-az&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&card_width=460&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=FFFFFF" alt="GitHub stats" />
+<img src="./assets/stats-overview.svg" width="100%" alt="GitHub stats: 28 public repositories, 233+ commits, 13 stars earned, top language JavaScript, coding since 2024" />
 
-<img src="https://streak-stats.demolab.com/?user=Rony10-az&hide_border=true&background=0D1117&stroke=30363D&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E" alt="Contribution streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&bg_color=0D1117&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF&hide_border=true&custom_title=Contribution%20Activity%20-%20Last%2031%20Days" alt="Contribution activity over the last 31 days" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Repositories per language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Most committed language" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Profile summary" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF&utcOffset=-5" alt="Most productive hours, UTC-5" />
+<img src="./assets/stats-languages.svg" width="100%" alt="Top languages by repository: JavaScript 26%, Python 17%, HTML 13%, Swift 13%, Java 9%, other 22%" />
 
 </div>
 
