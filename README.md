@@ -1,78 +1,132 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:3A86FF,100:00C9FF&height=220&section=header&text=Hola,%20soy%20Rony&fontSize=50&fontColor=ffffff&fontAlignY=32&desc=Full%20Stack%20Developer%20-%20DevOps%20Enthusiast&descAlignY=55&descSize=20&animation=fadeIn" width="100%"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00C9FF&center=true&vCenter=true&width=600&lines=Estudiante+de+Ingenier%C3%ADa+de+Software+%40+Tecsup;Full-Stack%3A+Backend+%2B+Frontend;Explorando+el+mundo+DevOps+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=700&color=FFFFFF&center=true&vCenter=true&random=false&width=760&height=46&lines=Full+Stack+Developer;Software+Engineering+Student+%40+Tecsup;Backend+%2B+Frontend;Learning+DevOps+with+Docker+%26+AWS;Always+building+something+new" alt="Full Stack Developer, Software Engineering student at Tecsup, learning DevOps" />
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Rony10-az&style=for-the-badge&color=111111&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub followers" />
+<img src="https://img.shields.io/github/stars/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub stars" />
+
+<br/><br/>
+
+<!-- TODO: replace with the real portfolio URL -->
+<a href="https://rony10-az.github.io"><img src="./assets/portfolio-button.svg" height="56" alt="View my portfolio" /></a>
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 🧑‍💻 Sobre mí
+## ~/about
 
-- 🎓 Estudiante de **Ingeniería de Software** en **Tecsup**, Perú
-- 💻 Me proyecto como **Full Stack Developer**: tanto **backend** como **frontend**
-- ⚙️ Aprendiendo **DevOps**: contenedores, despliegues y automatización en la nube
-- 🌱 Actualmente profundizando en **JavaScript**, **Docker** y **AWS**
-- 🤝 Abierto a colaborar en proyectos de desarrollo web
-- 📫 Contacto: **ronnjhost@gmail.com**
+<img src="./assets/about.svg" width="100%" alt="Rony — Software Engineering student at Tecsup, Peru. Full Stack Developer, backend and frontend. Learning JavaScript, Docker and AWS. Open to collaborating on web development projects. Contact: ronnjhost@gmail.com" />
 
-<br/>
+<img src="./assets/hud.svg" width="100%" alt="Status panel: backend 82%, frontend 74%, databases 63%, DevOps 41%" />
 
-## 🛠️ Stack tecnológico
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## ~/tech-stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,laravel,mysql,aws,docker,express,nodejs,js,ts,react,python,java,html,css&theme=dark" />
+<img src="./assets/stack-marquee.svg" width="100%" alt="PHP, Laravel, MySQL, Node.js, Express, JavaScript, TypeScript, React, Python, Java, Docker, AWS, Git" />
 
 </div>
 
-<br/>
+### Languages
+<img src="https://skillicons.dev/icons?i=js,ts,php,python,java&perline=10" alt="JavaScript, TypeScript, PHP, Python, Java" />
 
-## 📊 Estadísticas de GitHub
+### Frontend
+<img src="https://skillicons.dev/icons?i=html,css,react,tailwind&perline=10" alt="HTML, CSS, React, Tailwind CSS" />
+
+### Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express,laravel,spring&perline=10" alt="Node.js, Express, Laravel, Spring Boot" />
+
+### Databases
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres&perline=10" alt="MySQL, MongoDB, PostgreSQL" />
+<img src="https://img.shields.io/badge/Oracle-111111?style=for-the-badge" alt="Oracle Database" />
+
+### DevOps & Cloud
+<img src="https://skillicons.dev/icons?i=docker,aws,linux&perline=10" alt="Docker, AWS, Linux" />
+
+### Tools
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,figma,postman&perline=10" alt="Git, GitHub, VS Code, IntelliJ IDEA, Figma, Postman" />
+<img src="https://img.shields.io/badge/Bruno-111111?style=for-the-badge&logo=bruno&logoColor=white" alt="Bruno" />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## ~/projects
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Rony10-az&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rony10-az&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rony10-az&theme=tokyonight&hide_border=true" />
+<!-- TODO: replace each link with the repository URL of the project -->
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-mediguard.svg" width="49%" alt="MediGuard AI — Spanish first-aid and emergency health platform" /></a>
+<a href="https://github.com/luisdionicio-lgtm/FORO-IOT"><img src="./assets/project-aforo.svg" width="49%" alt="Aforo IoT / ProSync — bidirectional occupancy counter for small stores" /></a>
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-fixmycity.svg" width="49%" alt="FixMyCity — AI platform for citizen infrastructure reports" /></a>
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-labquest.svg" width="49%" alt="Lab Quest — retro video-game portfolio" /></a>
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 🐍 Snake de contribuciones
+## ~/github-stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Rony10-az&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&card_width=460&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=FFFFFF" alt="GitHub stats" />
+
+<img src="https://streak-stats.demolab.com/?user=Rony10-az&hide_border=true&background=0D1117&stroke=30363D&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E" alt="Contribution streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&bg_color=0D1117&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF&hide_border=true&custom_title=Contribution%20Activity%20-%20Last%2031%20Days" alt="Contribution activity over the last 31 days" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Repositories per language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Most committed language" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF" alt="Profile summary" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Rony10-az&theme=github_dark&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&chart_color=FFFFFF&utcOffset=-5" alt="Most productive hours, UTC-5" />
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## ~/contributions
+
+> The one section that keeps its colors.
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
 </picture>
 
-## 🌐 Conecta conmigo
+<!--
+  ARCADE GAMES
+  Run .github/workflows/arcade.yml once, then uncomment the block below and
+  replace GAME with any of: pacman · breakout · galaga · puzzle-bobble · bomberman · minesweeper
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/ronny-jhostin-26bbb1377/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://www.instagram.com/jh10s_" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-<a href="mailto:ronnjhost@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/arcade/GAME-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/arcade/GAME-contribution-graph.svg" />
+  <img alt="GAME contribution graph" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/arcade/GAME-contribution-graph.svg" />
+</picture>
+-->
 
 </div>
 
-<br/>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:3A86FF,100:7F00FF&height=120&section=footer" width="100%"/>
+## ~/contact
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=Rony10-az&style=flat-square&color=00C9FF" alt="profile views" />
+
+<a href="https://www.linkedin.com/in/ronny-jhostin-26bbb1377/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.instagram.com/jh10s_" target="_blank"><img src="https://img.shields.io/badge/Instagram-111111?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="mailto:ronnjhost@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
 </div>
+
+<img src="./assets/footer.svg" width="100%" alt="Rony10-az — building things for the web" />

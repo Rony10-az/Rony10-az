@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="226" viewBox="0 0 440 226" role="img" aria-label="Aforo IoT / ProSync: Bidirectional occupancy counter for small stores. Dual ultrasonic sensors, light semaphore, dashboard.">
+  <title>Aforo IoT / ProSync</title>
+  <style>
+    text { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .mono { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+
+    @keyframes rise   { from { opacity:0; transform: translateY(12px); } to { opacity:1; transform:none; } }
+    @keyframes orbit  { to { stroke-dashoffset: -1000; } }
+    @keyframes pulse  { 0%,100% { opacity:1; } 50% { opacity:.25; } }
+    @keyframes breathe{ 0%,100% { opacity:.14; } 50% { opacity:.34; } }
+    @keyframes scan   { from { transform: translateX(-180px) skewX(-16deg); } to { transform: translateX(620px) skewX(-16deg); } }
+    @keyframes creep  { from { transform: translate(0,0); } to { transform: translate(-26px,26px); } }
+    @keyframes bar    { 0% { transform: scaleX(0); } 55%,100% { transform: scaleX(1); } }
+    @keyframes float  { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-10px) rotate(4deg); } }
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes pop    { from { opacity:0; transform: scale(.72); } to { opacity:1; transform: scale(1); } }
+
+    .orbit { stroke-dasharray: 150 850; animation: orbit 6s linear infinite; }
+    .glow  { animation: breathe 4.2s ease-in-out infinite; }
+    .dot   { animation: pulse 1.6s ease-in-out infinite; }
+    .scan  { animation: scan 4.6s cubic-bezier(.45,0,.55,1) infinite; }
+    .mesh  { animation: creep 5s linear infinite; }
+    .fill  { transform-box: fill-box; transform-origin: 0 50%; animation: bar 2.6s cubic-bezier(.3,0,.2,1) .7s both; }
+    .ghost { transform-box: fill-box; transform-origin: 50% 50%; animation: float 7s ease-in-out infinite; }
+    .badge { transform-box: fill-box; transform-origin: 50% 50%; animation: pop .5s cubic-bezier(.3,1.4,.5,1) .1s both; }
+    .ico   { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.1s ease-out .35s forwards; }
+    .ico2  { animation-delay: .5s; }
+    .ico3  { animation-delay: .62s; }
+    .ico4  { animation-delay: .74s; }
+    .r1 { animation: rise .55s ease-out .18s both; }  .r2 { animation: rise .55s ease-out .31s both; }
+    .r3 { animation: rise .55s ease-out .44s both; }  .r4 { animation: rise .55s ease-out .55s both; }
+    .r5 { animation: rise .55s ease-out .66s both; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .orbit,.glow,.dot,.scan,.mesh,.fill,.ghost,.badge,.ico,.r1,.r2,.r3,.r4,.r5 { animation: none; }
+      .fill { transform: none; } .ico { stroke-dashoffset: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="440" height="226" rx="14"/></clipPath>
+    <radialGradient id="g" cx="1" cy="0" r="1">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="mp" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#58a6ff" stroke-opacity=".10"/>
+    </pattern>
+    <linearGradient id="sg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0"  stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".07"/>
+      <stop offset="1"  stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#c)">
+    <rect width="440" height="226" fill="#0d1117"/>
+    <g class="mesh"><rect x="-26" y="-26" width="500" height="284" fill="url(#mp)"/></g>
+    <circle class="glow" cx="440" cy="0" r="190" fill="url(#g)"/>
+    <g class="ghost" transform="translate(300 96) scale(5.4)" fill="none" stroke="#58a6ff" stroke-opacity=".09" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5.6 21V5.2a2 2 0 0 1 2-2h8.8a2 2 0 0 1 2 2V21"/>
+      <path d="M8.9 9.8h6.2M12.9 7.6l2.2 2.2-2.2 2.2"/>
+      <path d="M15.1 15.4H8.9M11.1 13.2l-2.2 2.2 2.2 2.2"/>
+    </g>
+    <rect class="scan" x="-180" y="-30" width="90" height="300" fill="url(#sg)"/>
+  </g>
+  <rect x=".5" y=".5" width="439" height="225" rx="14" fill="none" stroke="#30363d"/>
+  <rect class="orbit" x="1.5" y="1.5" width="437" height="223" rx="13" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" pathLength="1000"/>
+
+  <!-- icono del proyecto -->
+  <g class="badge">
+    <rect x="22" y="22" width="46" height="46" rx="13" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff" stroke-opacity=".45"/>
+    <g transform="translate(33 33)" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path class="ico" pathLength="1" d="M5.6 21V5.2a2 2 0 0 1 2-2h8.8a2 2 0 0 1 2 2V21"/>
+      <path class="ico ico2" pathLength="1" d="M8.9 9.8h6.2M12.9 7.6l2.2 2.2-2.2 2.2"/>
+      <path class="ico ico3" pathLength="1" d="M15.1 15.4H8.9M11.1 13.2l-2.2 2.2 2.2 2.2"/>
+    </g>
+  </g>
+
+  <text class="mono r1" x="82" y="49" font-size="11" letter-spacing="2" fill="#58a6ff">IoT SYSTEM</text>
+  <g class="r1">
+    <rect x="258.6" y="31" width="159.4" height="24" rx="12" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
+    <circle class="dot" cx="274.6" cy="43" r="4" fill="#58a6ff"/>
+    <text x="286.6" y="47" font-size="11.5" font-weight="600" fill="#e6edf3">Prototype validated</text>
+  </g>
+
+  <text class="r2" x="22" y="100" font-size="25"   font-weight="700" fill="#fff">Aforo IoT / ProSync</text>
+  <text class="r3" x="22" y="126" font-size="13.5" fill="#9da7b3">Bidirectional occupancy counter for small stores.</text>
+  <text class="r3" x="22" y="146" font-size="13.5" fill="#9da7b3">Dual ultrasonic sensors, light semaphore, dashboard.</text>
+
+  <g class="r4"><rect x="22.0" y="164" width="73.8" height="26" rx="13" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text class="mono" x="58.9" y="181" font-size="12" text-anchor="middle" fill="#e6edf3">Arduino</text></g>
+  <g class="r5"><rect x="103.8" y="164" width="44.2" height="26" rx="13" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text class="mono" x="125.9" y="181" font-size="12" text-anchor="middle" fill="#e6edf3">IoT</text></g>
+  <g class="r5"><rect x="156.0" y="164" width="88.6" height="26" rx="13" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text class="mono" x="200.3" y="181" font-size="12" text-anchor="middle" fill="#e6edf3">Dashboard</text></g>
+
+  <g class="r5">
+    <rect x="22" y="208" width="396" height="4" rx="2" fill="#58a6ff" fill-opacity=".16"/>
+    <rect class="fill" x="22" y="208" width="356.4" height="4" rx="2" fill="#58a6ff"/>
+  </g>
+</svg>
