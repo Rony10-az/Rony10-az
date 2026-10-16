@@ -1,68 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="GitHub stats: 28 public repositories, 233+ commits, 13 stars earned, top language JavaScript, coding since 2024">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="GitHub stats: 28 public repositories, 233+ commits, 13 stars earned, coding since 2024">
   <title>GitHub stats</title>
   <style>
-    text { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; font-size: 16px; }
-    .k { fill: #8a8a8a; }
-    .v { fill: #ffffff; font-weight: 700; }
-    .u { fill: #8a8a8a; font-size: 13px; }
-    .tick { fill: #ffffff; }
-    .hd { fill: #8a8a8a; font-size: 13px; letter-spacing: 2px; }
+    text { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+    .num  { font-size: 34px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .lbl  { font-size: 13px; letter-spacing: 3px; fill: #ffffff; text-anchor: middle; font-weight: 600; }
+    .sub  { font-size: 11px; letter-spacing: 1px; fill: #8a8a8a; text-anchor: middle; }
+    .hdr  { font-size: 12px; letter-spacing: 3px; fill: #8a8a8a; }
 
-    @keyframes fade { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
-    @keyframes head { from { opacity: 0; } to { opacity: 1; } }
-    @keyframes rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
-    @keyframes count { from { opacity: 0; transform: translateY(6px) scale(.85); } to { opacity: 1; transform: none; } }
+    @keyframes spin   { to { transform: rotate(360deg); } }
+    @keyframes rspin  { to { transform: rotate(-360deg); } }
+    @keyframes drawc  { to { stroke-dashoffset: 0; } }
+    @keyframes pop    { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: scale(1); } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes blip   { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+    @keyframes head   { from { opacity: 0; } to { opacity: 1; } }
 
-    .row  { opacity: 0; animation: fade .62s cubic-bezier(.22,.8,.3,1) both; }
-    .hdg  { animation: head .5s ease-out .1s both; }
-    .line { transform-box: fill-box; transform-origin: 0 50%; animation: rule .8s cubic-bezier(.3,0,.2,1) .2s both; }
-    .cur  { opacity: 0; animation: blink 1s step-end 1.9s infinite; }
-    .num  { transform-box: fill-box; transform-origin: 0 50%; opacity: 0; animation: count .45s cubic-bezier(.3,1.4,.5,1) both; }
+    .ring  { transform-box: fill-box; transform-origin: 50% 50%; animation: spin 14s linear infinite; }
+    .ring2 { transform-box: fill-box; transform-origin: 50% 50%; animation: rspin 20s linear infinite; }
+    .core  { stroke-dasharray: 1; stroke-dashoffset: 1; animation: drawc 1.3s cubic-bezier(.3,0,.2,1) both; }
+    .tile  { transform-box: fill-box; transform-origin: 50% 50%; opacity: 0; animation: pop .55s cubic-bezier(.3,1.4,.5,1) both; }
+    .cap   { opacity: 0; animation: fadeUp .5s ease-out both; }
+    .dot   { animation: blip 2.2s ease-in-out infinite; }
+    .hdg   { animation: head .5s ease-out .05s both; }
 
     @media (prefers-reduced-motion: reduce) {
-      .row,.hdg,.line,.cur,.num { animation: none; opacity: 1; }
-      .line { transform: none; }
+      .ring,.ring2,.core,.tile,.cap,.dot,.hdg { animation: none; opacity: 1; }
+      .core { stroke-dashoffset: 0; }
     }
   </style>
-  <defs><clipPath id="p"><rect width="900" height="280" rx="14"/></clipPath></defs>
+  <defs><clipPath id="p"><rect width="900" height="240" rx="14"/></clipPath></defs>
+
   <g clip-path="url(#p)">
-    <rect width="900" height="280" fill="#0a0a0a"/>
-    <g class="hdg"><text class="hd" x="30" y="40">$ gh stats --user rony10-az</text></g>
-    <rect class="line" x="30" y="52" width="840" height="1" fill="#333"/>
+    <rect width="900" height="240" fill="#0a0a0a"/>
+    <text class="hdg hdr" x="30" y="32">GITHUB STATS · LIVE FROM THE API</text>
+    <rect x="30" y="44" width="840" height="1" fill="#333"/>
 
-    <g class="row" style="animation-delay:0.35s">
-      <rect class="tick" x="30" y="61" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="76">repos</text>
-      <text class="num v" x="210" y="76" style="animation-delay:0.55s">28</text>
-      <text class="u" x="246" y="76">public repositories</text>
-    </g>
-    <g class="row" style="animation-delay:0.57s">
-      <rect class="tick" x="30" y="95" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="110">commits</text>
-      <text class="num v" x="210" y="110" style="animation-delay:0.77s">233+</text>
-      <text class="u" x="266" y="110">pushed across all repos</text>
-    </g>
-    <g class="row" style="animation-delay:0.79s">
-      <rect class="tick" x="30" y="129" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="144">stars</text>
-      <text class="num v" x="210" y="144" style="animation-delay:0.99s">13</text>
-      <text class="u" x="240" y="144">earned</text>
-    </g>
-    <g class="row" style="animation-delay:1.01s">
-      <rect class="tick" x="30" y="163" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="178">top_lang</text>
-      <text class="num v" x="210" y="178" style="animation-delay:1.21s">JavaScript</text>
-      <text class="u" x="356" y="178">· 26% of repos</text>
-    </g>
-    <g class="row" style="animation-delay:1.23s">
-      <rect class="tick" x="30" y="197" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="212">coding_since</text>
-      <text class="num v" x="210" y="212" style="animation-delay:1.43s">2024</text>
-      <text class="u" x="258" y="212">· Tecsup, Peru</text>
+    <!-- tile: repos -->
+    <g class="tile" style="animation-delay:.10s">
+      <g transform="translate(120 128)">
+        <circle class="ring"  r="72" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="1.2" stroke-dasharray="3 9"/>
+        <circle class="ring2" r="60" fill="none" stroke="#ffffff" stroke-opacity=".4"  stroke-width="1.2" stroke-dasharray="40 18 6 18"/>
+        <circle class="core" r="50" fill="none" stroke="#ffffff" stroke-width="2" pathLength="1" style="animation-delay:.3s"/>
+        <text class="num" y="10">28</text>
+      </g>
+      <circle class="dot" cx="120" cy="184" r="3" fill="#ffffff" style="animation-delay:.3s"/>
+      <g class="cap" style="animation-delay:.35s">
+        <text class="lbl" x="120" y="206">REPOS</text>
+        <text class="sub" x="120" y="222">public repositories</text>
+      </g>
     </g>
 
-    <text class="v cur" x="48" y="252">_</text>
+    <!-- tile: commits -->
+    <g class="tile" style="animation-delay:.22s">
+      <g transform="translate(340 128)">
+        <circle class="ring"  r="72" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="1.2" stroke-dasharray="3 9" style="animation-duration:17s"/>
+        <circle class="ring2" r="60" fill="none" stroke="#ffffff" stroke-opacity=".4"  stroke-width="1.2" stroke-dasharray="40 18 6 18" style="animation-duration:23s"/>
+        <circle class="core" r="50" fill="none" stroke="#ffffff" stroke-width="2" pathLength="1" style="animation-delay:.42s"/>
+        <text class="num" y="10" font-size="28">233+</text>
+      </g>
+      <circle class="dot" cx="340" cy="184" r="3" fill="#ffffff" style="animation-delay:.42s"/>
+      <g class="cap" style="animation-delay:.47s">
+        <text class="lbl" x="340" y="206">COMMITS</text>
+        <text class="sub" x="340" y="222">pushed, all repos</text>
+      </g>
+    </g>
+
+    <!-- tile: stars -->
+    <g class="tile" style="animation-delay:.34s">
+      <g transform="translate(560 128)">
+        <circle class="ring"  r="72" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="1.2" stroke-dasharray="3 9" style="animation-duration:15s"/>
+        <circle class="ring2" r="60" fill="none" stroke="#ffffff" stroke-opacity=".4"  stroke-width="1.2" stroke-dasharray="40 18 6 18" style="animation-duration:21s"/>
+        <circle class="core" r="50" fill="none" stroke="#ffffff" stroke-width="2" pathLength="1" style="animation-delay:.54s"/>
+        <text class="num" y="10">13</text>
+      </g>
+      <circle class="dot" cx="560" cy="184" r="3" fill="#ffffff" style="animation-delay:.54s"/>
+      <g class="cap" style="animation-delay:.59s">
+        <text class="lbl" x="560" y="206">STARS</text>
+        <text class="sub" x="560" y="222">earned</text>
+      </g>
+    </g>
+
+    <!-- tile: since -->
+    <g class="tile" style="animation-delay:.46s">
+      <g transform="translate(780 128)">
+        <circle class="ring"  r="72" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="1.2" stroke-dasharray="3 9" style="animation-duration:19s"/>
+        <circle class="ring2" r="60" fill="none" stroke="#ffffff" stroke-opacity=".4"  stroke-width="1.2" stroke-dasharray="40 18 6 18" style="animation-duration:25s"/>
+        <circle class="core" r="50" fill="none" stroke="#ffffff" stroke-width="2" pathLength="1" style="animation-delay:.66s"/>
+        <text class="num" y="10" font-size="28">2024</text>
+      </g>
+      <circle class="dot" cx="780" cy="184" r="3" fill="#ffffff" style="animation-delay:.66s"/>
+      <g class="cap" style="animation-delay:.71s">
+        <text class="lbl" x="780" y="206">SINCE</text>
+        <text class="sub" x="780" y="222">coding @ Tecsup</text>
+      </g>
+    </g>
   </g>
-  <rect x=".5" y=".5" width="899" height="279" rx="14" fill="none" stroke="#333"/>
+  <rect x=".5" y=".5" width="899" height="239" rx="14" fill="none" stroke="#333"/>
 </svg>

@@ -19,7 +19,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/about
+<img src="./assets/heading-about.svg" width="100%" alt="~/about" />
 
 <img src="./assets/about.svg" width="100%" alt="Rony — Software Engineering student at Tecsup, Peru. Full Stack Developer, backend and frontend. Learning JavaScript, Docker and AWS. Open to collaborating on web development projects. Contact: ronnjhost@gmail.com" />
 
@@ -27,7 +27,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/tech-stack
+<img src="./assets/heading-stack.svg" width="100%" alt="~/tech-stack" />
 
 <div align="center">
 
@@ -57,21 +57,25 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/projects
+<img src="./assets/heading-projects.svg" width="100%" alt="~/projects" />
 
 <div align="center">
 
+<img src="./assets/projects-carousel.svg" width="100%" alt="Featured projects, rotating: Aforo IoT / ProSync, FixMyCity, Lab Quest, MediGuard AI" />
+
+<br/>
+
 <!-- TODO: replace each link with the repository URL of the project -->
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-mediguard.svg" width="49%" alt="MediGuard AI — Spanish first-aid and emergency health platform" /></a>
-<a href="https://github.com/luisdionicio-lgtm/FORO-IOT"><img src="./assets/project-aforo.svg" width="49%" alt="Aforo IoT / ProSync — bidirectional occupancy counter for small stores" /></a>
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-fixmycity.svg" width="49%" alt="FixMyCity — AI platform for citizen infrastructure reports" /></a>
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="./assets/project-labquest.svg" width="49%" alt="Lab Quest — retro video-game portfolio" /></a>
+<a href="https://github.com/luisdionicio-lgtm/FORO-IOT"><img src="https://img.shields.io/badge/Aforo_IoT_%2F_ProSync-58a6ff?style=for-the-badge&labelColor=111111" alt="Aforo IoT / ProSync repository" /></a>
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/FixMyCity-f59e0b?style=for-the-badge&labelColor=111111" alt="FixMyCity repository" /></a>
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/Lab_Quest-c084fc?style=for-the-badge&labelColor=111111" alt="Lab Quest repository" /></a>
+<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/MediGuard_AI-4ade80?style=for-the-badge&labelColor=111111" alt="MediGuard AI repository" /></a>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/github-stats
+<img src="./assets/heading-stats.svg" width="100%" alt="~/github-stats" />
 
 <div align="center">
 
@@ -83,7 +87,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/contributions
+<img src="./assets/heading-contrib.svg" width="100%" alt="~/contributions" />
 
 > The one section that keeps its colors.
 
@@ -111,7 +115,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## ~/contact
+<img src="./assets/heading-contact.svg" width="100%" alt="~/contact" />
 
 <div align="center">
 

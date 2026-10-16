@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Featured projects, rotating: Aforo IoT / ProSync, FixMyCity, Lab Quest, MediGuard AI">
+  <title>Featured projects</title>
+  <style>
+    text { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
+    .mono { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+
+    @keyframes creep { from { transform: translate(0,0); } to { transform: translate(-26px,26px); } }
+    @keyframes scan  { from { transform: translateX(-200px) skewX(-16deg); } to { transform: translateX(1100px) skewX(-16deg); } }
+    @keyframes dot   { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+
+    @keyframes s1 { 0%{opacity:1} 23%{opacity:1} 25%{opacity:0} 98%{opacity:0} 100%{opacity:1} }
+    @keyframes s2 { 0%{opacity:0} 23%{opacity:0} 25%{opacity:1} 48%{opacity:1} 50%{opacity:0} 100%{opacity:0} }
+    @keyframes s3 { 0%{opacity:0} 48%{opacity:0} 50%{opacity:1} 73%{opacity:1} 75%{opacity:0} 100%{opacity:0} }
+    @keyframes s4 { 0%{opacity:0} 73%{opacity:0} 75%{opacity:1} 98%{opacity:1} 100%{opacity:0} }
+
+    @keyframes b1 { 0%{transform:scaleX(0)} 25%{transform:scaleX(1)} 99.5%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+    @keyframes b2 { 0%,25%{transform:scaleX(0)} 50%{transform:scaleX(1)} 99.5%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+    @keyframes b3 { 0%,50%{transform:scaleX(0)} 75%{transform:scaleX(1)} 99.5%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+    @keyframes b4 { 0%,75%{transform:scaleX(0)} 100%{transform:scaleX(1)} }
+
+    .mesh { animation: creep 5s linear infinite; }
+    .beam { animation: scan 7s cubic-bezier(.45,0,.55,1) infinite; }
+    .dotb { animation: dot 1.6s ease-in-out infinite; }
+
+    .sl1 { opacity: 1; animation: s1 16s linear infinite; }
+    .sl2 { opacity: 0; animation: s2 16s linear infinite; }
+    .sl3 { opacity: 0; animation: s3 16s linear infinite; }
+    .sl4 { opacity: 0; animation: s4 16s linear infinite; }
+
+    .bar1 { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(1); animation: b1 16s linear infinite; }
+    .bar2 { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: b2 16s linear infinite; }
+    .bar3 { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: b3 16s linear infinite; }
+    .bar4 { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: b4 16s linear infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .mesh,.beam,.dotb,.sl1,.sl2,.sl3,.sl4,.bar1,.bar2,.bar3,.bar4 { animation: none; }
+      .sl2,.sl3,.sl4 { opacity: 0; } .sl1 { opacity: 1; }
+      .bar1 { transform: scaleX(1); } .bar2,.bar3,.bar4 { transform: scaleX(0); }
+    }
+  </style>
+  <defs>
+    <clipPath id="c"><rect width="900" height="300" rx="16"/></clipPath>
+    <pattern id="mp" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
+    </pattern>
+    <linearGradient id="sg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#c)">
+    <rect width="900" height="300" fill="#0a0a0a"/>
+    <g class="mesh"><rect x="-26" y="-26" width="960" height="360" fill="url(#mp)"/></g>
+    <rect class="beam" x="-200" y="-30" width="110" height="370" fill="url(#sg)"/>
+
+    <!-- progress segments -->
+    <rect x="30" y="22" width="204" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar1" x="30" y="22" width="204" height="3" rx="1.5" fill="#58a6ff"/>
+    <rect x="242" y="22" width="204" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar2" x="242" y="22" width="204" height="3" rx="1.5" fill="#f59e0b"/>
+    <rect x="454" y="22" width="204" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar3" x="454" y="22" width="204" height="3" rx="1.5" fill="#c084fc"/>
+    <rect x="666" y="22" width="204" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar4" x="666" y="22" width="204" height="3" rx="1.5" fill="#4ade80"/>
+
+    <!-- slide 1: Aforo IoT / ProSync -->
+    <g class="sl1">
+      <rect x="50" y="104" width="92" height="92" rx="20" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff" stroke-opacity=".45"/>
+      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5.6 21V5.2a2 2 0 0 1 2-2h8.8a2 2 0 0 1 2 2V21"/>
+        <path d="M8.9 9.8h6.2M12.9 7.6l2.2 2.2-2.2 2.2"/>
+        <path d="M15.1 15.4H8.9M11.1 13.2l-2.2 2.2 2.2 2.2"/>
+      </g>
+      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#58a6ff">IoT SYSTEM</text>
+      <rect x="690" y="62" width="160" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
+      <circle class="dotb" cx="706" cy="75" r="4" fill="#58a6ff"/>
+      <text x="718" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">Prototype validated</text>
+      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">Aforo IoT / ProSync</text>
+      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Bidirectional occupancy counter for small stores.</text>
+      <text x="180" y="212" font-size="14.5" fill="#9da7b3">Dual ultrasonic sensors, light semaphore, dashboard.</text>
+      <g class="mono" font-size="12.5">
+        <rect x="180" y="230" width="78" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="219" y="248" text-anchor="middle" fill="#e6edf3">Arduino</text>
+        <rect x="266" y="230" width="48" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="290" y="248" text-anchor="middle" fill="#e6edf3">IoT</text>
+        <rect x="322" y="230" width="94" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="369" y="248" text-anchor="middle" fill="#e6edf3">Dashboard</text>
+      </g>
+    </g>
+
+    <!-- slide 2: FixMyCity -->
+    <g class="sl2">
+      <rect x="50" y="104" width="92" height="92" rx="20" fill="#f59e0b" fill-opacity=".13" stroke="#f59e0b" stroke-opacity=".45"/>
+      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#f59e0b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21.4s6.7-7.1 6.7-11.5a6.7 6.7 0 1 0-13.4 0c0 4.4 6.7 11.5 6.7 11.5Z"/>
+        <path d="M12 6.1v4.6"/>
+        <path d="M12 13.5v.3"/>
+      </g>
+      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#f59e0b">AI WEB APP</text>
+      <rect x="740" y="62" width="110" height="26" rx="13" fill="#f59e0b" fill-opacity=".14" stroke="#f59e0b" stroke-opacity=".55"/>
+      <circle class="dotb" cx="756" cy="75" r="4" fill="#f59e0b"/>
+      <text x="768" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">Pre-thesis</text>
+      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">FixMyCity</text>
+      <text x="180" y="190" font-size="14.5" fill="#9da7b3">AI platform that classifies and prioritizes citizen</text>
+      <text x="180" y="212" font-size="14.5" fill="#9da7b3">infrastructure reports for Lima municipalities.</text>
+      <g class="mono" font-size="12.5">
+        <rect x="180" y="230" width="40" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="200" y="248" text-anchor="middle" fill="#e6edf3">AI</text>
+        <rect x="228" y="230" width="80" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="268" y="248" text-anchor="middle" fill="#e6edf3">Web App</text>
+        <rect x="316" y="230" width="58" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="345" y="248" text-anchor="middle" fill="#e6edf3">SaaS</text>
+      </g>
+    </g>
+
+    <!-- slide 3: Lab Quest -->
+    <g class="sl3">
+      <rect x="50" y="104" width="92" height="92" rx="20" fill="#c084fc" fill-opacity=".13" stroke="#c084fc" stroke-opacity=".45"/>
+      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#c084fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.6 8.4h6.8a5.6 5.6 0 0 1 5.6 5.6v1.2a3.4 3.4 0 0 1-6.2 1.9l-.8-1.2H10l-.8 1.2A3.4 3.4 0 0 1 3 15.2V14a5.6 5.6 0 0 1 5.6-5.6Z"/>
+        <path d="M7.4 11.9v3.2M5.8 13.5h3.2"/>
+        <path d="M15.1 12.3a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/>
+        <path d="M17.6 14.4a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/>
+      </g>
+      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#c084fc">PORTFOLIO</text>
+      <rect x="770" y="62" width="80" height="26" rx="13" fill="#c084fc" fill-opacity=".14" stroke="#c084fc" stroke-opacity=".55"/>
+      <circle class="dotb" cx="786" cy="75" r="4" fill="#c084fc"/>
+      <text x="798" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">Concept</text>
+      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">Lab Quest</text>
+      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Retro video-game portfolio where every weekly lab</text>
+      <text x="180" y="212" font-size="14.5" fill="#9da7b3">becomes a lesson in an open course.</text>
+      <g class="mono" font-size="12.5">
+        <rect x="180" y="230" width="48" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="204" y="248" text-anchor="middle" fill="#e6edf3">Web</text>
+        <rect x="236" y="230" width="86" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="279" y="248" text-anchor="middle" fill="#e6edf3">Pixel UI</text>
+        <rect x="330" y="230" width="110" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="385" y="248" text-anchor="middle" fill="#e6edf3">Open course</text>
+      </g>
+    </g>
+
+    <!-- slide 4: MediGuard AI -->
+    <g class="sl4">
+      <rect x="50" y="104" width="92" height="92" rx="20" fill="#4ade80" fill-opacity=".13" stroke="#4ade80" stroke-opacity=".45"/>
+      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#4ade80" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2.6 19 5.9v5.2c0 4.5-3.2 7.9-7 10.1-3.8-2.2-7-5.6-7-10.1V5.9Z"/>
+        <path d="M7.9 11.9h2.2l1.3-2.6 1.8 5.1 1.3-2.5h2.6"/>
+      </g>
+      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#4ade80">WEB PLATFORM</text>
+      <rect x="690" y="62" width="160" height="26" rx="13" fill="#4ade80" fill-opacity=".14" stroke="#4ade80" stroke-opacity=".55"/>
+      <circle class="dotb" cx="706" cy="75" r="4" fill="#4ade80"/>
+      <text x="718" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">MediGuard AI</text>
+      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Spanish first-aid and emergency health platform.</text>
+      <text x="180" y="212" font-size="14.5" fill="#9da7b3">React dashboard, JWT auth, Spring Boot + Django.</text>
+      <g class="mono" font-size="12.5">
+        <rect x="180" y="230" width="62" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="211" y="248" text-anchor="middle" fill="#e6edf3">React</text>
+        <rect x="250" y="230" width="86" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="293" y="248" text-anchor="middle" fill="#e6edf3">Tailwind</text>
+        <rect x="344" y="230" width="108" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="398" y="248" text-anchor="middle" fill="#e6edf3">Spring Boot</text>
+        <rect x="460" y="230" width="72" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="496" y="248" text-anchor="middle" fill="#e6edf3">Django</text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="899" height="299" rx="16" fill="none" stroke="#333"/>
+</svg>
