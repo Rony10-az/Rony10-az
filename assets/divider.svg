@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" role="presentation" aria-hidden="true">
+  <style>
+    @keyframes run  {{ from {{ transform: translateX(-60px); }} to {{ transform: translateX(960px); }} }}
+    @keyframes dash {{ to {{ stroke-dashoffset: -60; }} }}
+    @keyframes tick {{ 0%,100% {{ opacity:.18; }} 50% {{ opacity:.5; }} }}
+    .pulse {{ animation: run 4.5s linear infinite; }}
+    .line  {{ stroke-dasharray: 6 9; animation: dash 3s linear infinite; }}
+    .t     {{ animation: tick 3s ease-in-out infinite; }}
+    @media (prefers-reduced-motion: reduce) {{ .pulse,.line,.t {{ animation: none; }} }}
+  </style>
+  <defs>
+    <linearGradient id="pg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0"  stop-color="#888" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset="1"  stop-color="#888" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line class="line" x1="0" y1="12" x2="900" y2="12" stroke="#8a8a8a" stroke-opacity=".45" stroke-width="1.5"/>
+  <g class="t" fill="#8a8a8a">
+    <rect x="0"   y="8" width="2" height="8"/><rect x="224" y="8" width="2" height="8"/>
+    <rect x="449" y="8" width="2" height="8"/><rect x="674" y="8" width="2" height="8"/>
+    <rect x="898" y="8" width="2" height="8"/>
+  </g>
+  <rect class="pulse" x="-60" y="10.5" width="120" height="3" rx="1.5" fill="url(#pg)"/>
+</svg>

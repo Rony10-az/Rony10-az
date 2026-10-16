@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="PHP, LARAVEL, MYSQL, NODE.JS, EXPRESS, JAVASCRIPT, TYPESCRIPT, REACT, PYTHON, JAVA, DOCKER, AWS, GIT">
+  <title>Tech stack</title>
+  <style>
+    text { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; font-size: 15px; font-weight: 600; fill: #fff; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-1340.0px); } }
+    @keyframes shine { 0%,100% { opacity:.35; } 50% { opacity:.9; } }
+    .m { animation: slide 26s linear infinite; }
+    .d { animation: shine 2.4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .m,.d { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="p"><rect width="900" height="54" rx="10"/></clipPath>
+    <linearGradient id="fl" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0a0a0a"/><stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fr" x1="1" x2="0" y1="0" y2="0"><stop offset="0" stop-color="#0a0a0a"/><stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g clip-path="url(#p)">
+    <rect width="900" height="54" fill="#0a0a0a"/>
+    <g class="m">
+      <text x="0" y="33" textLength="1340.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">PHP  ·  LARAVEL  ·  MYSQL  ·  NODE.JS  ·  EXPRESS  ·  JAVASCRIPT  ·  TYPESCRIPT  ·  REACT  ·  PYTHON  ·  JAVA  ·  DOCKER  ·  AWS  ·  GIT  ·  </text>
+      <text x="1340.0" y="33" textLength="1340.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">PHP  ·  LARAVEL  ·  MYSQL  ·  NODE.JS  ·  EXPRESS  ·  JAVASCRIPT  ·  TYPESCRIPT  ·  REACT  ·  PYTHON  ·  JAVA  ·  DOCKER  ·  AWS  ·  GIT  ·  </text>
+    </g>
+    <rect width="110" height="54" fill="url(#fl)"/>
+    <rect x="790" width="110" height="54" fill="url(#fr)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="53" rx="10" fill="none" stroke="#333"/>
+</svg>
