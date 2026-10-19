@@ -19,8 +19,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          username: Rony10-az
+          USERNAME: Rony10-az
 
       - name: push profile-3d-contrib images to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

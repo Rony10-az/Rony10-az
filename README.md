@@ -1,19 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=700&color=FFFFFF&center=true&vCenter=true&random=false&width=760&height=46&lines=Full+Stack+Developer;Software+Engineering+Student+%40+Tecsup;Backend+%2B+Frontend;Learning+DevOps+with+Docker+%26+AWS;Always+building+something+new" alt="Full Stack Developer, Software Engineering student at Tecsup, learning DevOps" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Rony10-az&style=for-the-badge&color=111111&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub followers" />
-<img src="https://img.shields.io/github/stars/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub stars" />
-
-<br/><br/>
-
-<!-- TODO: replace with the real portfolio URL -->
-<a href="https://rony10-az.github.io"><img src="./assets/portfolio-button.svg" height="56" alt="View my portfolio" /></a>
+<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup. Profile views, followers and stars. View my portfolio." />
 
 </div>
 
