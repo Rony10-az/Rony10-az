@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-label="About Rony: Software Engineering student at Tecsup, Peru. Full Stack Developer. Learning JavaScript, Docker and AWS. Based in Lima, interested in APIs, mobile and cloud. Contact ronnjhost@gmail.com">
-  <title>About Rony</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="406" viewBox="0 0 900 406" role="img" aria-label="About Rony Quintana: Software Engineering student at Tecsup, Peru. DevOps Engineer in training, open to backend, frontend and database web projects. Learning JavaScript, Docker and AWS. Based in Lima, interested in APIs, mobile and cloud. Phone +51 975 471 118. Contact ronnjhost@gmail.com">
+  <title>About Rony Quintana</title>
   <style>
     text { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; font-size: 16px; }
     .k { fill: #8a8a8a; }
@@ -13,7 +13,7 @@
     @keyframes rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
     @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
 
-    .panel { transform-origin: 450px 190px; animation: panelIn .55s cubic-bezier(.22,.8,.3,1) both; }
+    .panel { transform-origin: 450px 203px; animation: panelIn .55s cubic-bezier(.22,.8,.3,1) both; }
     .row  { opacity: 0; animation: fade .62s cubic-bezier(.22,.8,.3,1) both; }
     .hdg  { animation: head .5s ease-out .1s both; }
     .line { transform-box: fill-box; transform-origin: 0 50%; animation: rule .8s cubic-bezier(.3,0,.2,1) .2s both; }
@@ -24,16 +24,16 @@
       .panel { transform: none; } .line { transform: none; }
     }
   </style>
-  <defs><clipPath id="p"><rect width="900" height="380" rx="14"/></clipPath></defs>
+  <defs><clipPath id="p"><rect width="900" height="406" rx="14"/></clipPath></defs>
   <g class="panel" clip-path="url(#p)">
-    <rect width="900" height="380" fill="#0a0a0a"/>
+    <rect width="900" height="406" fill="#0a0a0a"/>
     <g class="hdg"><text class="hd" x="30" y="40">$ cat about.txt</text></g>
     <rect class="line" x="30" y="52" width="840" height="1" fill="#333"/>
 
     <g class="row" style="animation-delay:0.35s">
       <rect class="tick" x="30" y="61" width="3" height="20" rx="1.5"/>
       <text class="k" x="48" y="76">name</text>
-      <text class="v" x="210" y="76">Rony</text>
+      <text class="v" x="210" y="76">Rony Quintana</text>
     </g>
     <g class="row" style="animation-delay:0.57s">
       <rect class="tick" x="30" y="95" width="3" height="20" rx="1.5"/>
@@ -43,35 +43,40 @@
     <g class="row" style="animation-delay:0.79s">
       <rect class="tick" x="30" y="129" width="3" height="20" rx="1.5"/>
       <text class="k" x="48" y="144">role</text>
-      <text class="v" x="210" y="144">Full Stack Developer (backend + frontend)</text>
+      <text class="v" x="210" y="144">DevOps Engineer in training</text>
     </g>
     <g class="row" style="animation-delay:1.01s">
       <rect class="tick" x="30" y="163" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="178">learning</text>
-      <text class="v" x="210" y="178">JavaScript · Docker · AWS  →  DevOps</text>
+      <text class="k" x="48" y="178">open to</text>
+      <text class="v" x="210" y="178">web systems: backend, frontend &amp; databases</text>
     </g>
     <g class="row" style="animation-delay:1.23s">
       <rect class="tick" x="30" y="197" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="212">location</text>
-      <text class="v" x="210" y="212">Lima, Peru</text>
+      <text class="k" x="48" y="212">learning</text>
+      <text class="v" x="210" y="212">JavaScript · Docker · AWS  →  DevOps</text>
     </g>
     <g class="row" style="animation-delay:1.45s">
       <rect class="tick" x="30" y="231" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="246">interests</text>
-      <text class="v" x="210" y="246">APIs · mobile (Swift/Kotlin) · cloud &amp; microservices</text>
+      <text class="k" x="48" y="246">location</text>
+      <text class="v" x="210" y="246">Lima, Peru</text>
     </g>
     <g class="row" style="animation-delay:1.67s">
       <rect class="tick" x="30" y="265" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="280">open to</text>
-      <text class="v" x="210" y="280">collaborating on web development projects</text>
+      <text class="k" x="48" y="280">interests</text>
+      <text class="v" x="210" y="280">APIs · mobile (Swift/Kotlin) · cloud &amp; microservices</text>
     </g>
     <g class="row" style="animation-delay:1.89s">
       <rect class="tick" x="30" y="299" width="3" height="20" rx="1.5"/>
-      <text class="k" x="48" y="314">contact</text>
-      <text class="v" x="210" y="314">ronnjhost@gmail.com</text>
+      <text class="k" x="48" y="314">phone</text>
+      <text class="v" x="210" y="314">+51 975 471 118</text>
+    </g>
+    <g class="row" style="animation-delay:2.11s">
+      <rect class="tick" x="30" y="333" width="3" height="20" rx="1.5"/>
+      <text class="k" x="48" y="348">contact</text>
+      <text class="v" x="210" y="348">ronnjhost@gmail.com</text>
     </g>
 
-    <text class="v cur" x="48" y="348">_</text>
+    <text class="v cur" x="48" y="385">_</text>
   </g>
-  <rect x=".5" y=".5" width="899" height="379" rx="14" fill="none" stroke="#333"/>
+  <rect x=".5" y=".5" width="899" height="405" rx="14" fill="none" stroke="#333"/>
 </svg>

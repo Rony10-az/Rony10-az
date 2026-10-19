@@ -21,7 +21,7 @@
 
 <img src="./assets/heading-about.svg" width="100%" alt="~/about" />
 
-<img src="./assets/about.svg" width="100%" alt="Rony — Software Engineering student at Tecsup, Peru. Full Stack Developer, backend and frontend. Learning JavaScript, Docker and AWS. Open to collaborating on web development projects. Contact: ronnjhost@gmail.com" />
+<img src="./assets/about.svg" width="100%" alt="Rony Quintana — Software Engineering student at Tecsup, Peru. DevOps Engineer in training, open to backend, frontend and database web projects. Learning JavaScript, Docker and AWS. Phone +51 975 471 118. Contact: ronnjhost@gmail.com" />
 
 <img src="./assets/hud.svg" width="100%" alt="Status panel: backend 82%, frontend 74%, databases 63%, DevOps 41%" />
 
@@ -65,15 +65,15 @@
 
 <div align="center">
 
-<img src="./assets/projects-carousel.svg" width="100%" alt="Featured projects, rotating: Aforo IoT / ProSync, FixMyCity, Lab Quest, MediGuard AI" />
+<img src="./assets/projects-carousel.svg" width="100%" alt="Featured projects, rotating: Curso de JavaScript, SecureDocs, Monito - Load Balancing, Tech Store, MediGuard" />
 
 <br/>
 
-<!-- TODO: replace each link with the repository URL of the project -->
-<a href="https://github.com/luisdionicio-lgtm/FORO-IOT"><img src="https://img.shields.io/badge/Aforo_IoT_%2F_ProSync-58a6ff?style=for-the-badge&labelColor=111111" alt="Aforo IoT / ProSync repository" /></a>
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/FixMyCity-f59e0b?style=for-the-badge&labelColor=111111" alt="FixMyCity repository" /></a>
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/Lab_Quest-c084fc?style=for-the-badge&labelColor=111111" alt="Lab Quest repository" /></a>
-<a href="https://github.com/Rony10-az?tab=repositories"><img src="https://img.shields.io/badge/MediGuard_AI-4ade80?style=for-the-badge&labelColor=111111" alt="MediGuard AI repository" /></a>
+<a href="https://github.com/Rony10-az/Desarrollo_Aplicaciones_Avanzado"><img src="https://img.shields.io/badge/Curso_de_JavaScript-58a6ff?style=for-the-badge&labelColor=111111" alt="Curso de JavaScript repository" /></a>
+<a href="https://github.com/Rony10-az/SecureDocs"><img src="https://img.shields.io/badge/SecureDocs-f59e0b?style=for-the-badge&labelColor=111111" alt="SecureDocs repository" /></a>
+<a href="https://github.com/Rony10-az/Desarrollo-de-Soluciones-en-la-Nube"><img src="https://img.shields.io/badge/Monito_%E2%80%93_Load_Balancing-c084fc?style=for-the-badge&labelColor=111111" alt="Monito - Load Balancing repository" /></a>
+<a href="https://github.com/Rony10-az/TechSotre"><img src="https://img.shields.io/badge/Tech_Store-4ade80?style=for-the-badge&labelColor=111111" alt="Tech Store repository" /></a>
+<a href="https://github.com/Rony10-az/mediguard_web"><img src="https://img.shields.io/badge/MediGuard-ff6b6b?style=for-the-badge&labelColor=111111" alt="MediGuard repository" /></a>
 
 </div>
 
@@ -102,6 +102,14 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
 </picture>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&theme=tokyo-night&hide_border=true&bg_color=0a0a0a" alt="GitHub activity graph" />
 
 <!--
   ARCADE GAMES
