@@ -1,39 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Featured projects, rotating: Curso de JavaScript, SecureDocs, Monito - Load Balancing, Tech Store, MediGuard">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="Featured projects, rotating: Curso de JavaScript, SecureDocs, Monito - Load Balancing, Tech Store, MediGuard">
   <title>Featured projects</title>
   <style>
     text { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; }
     .mono { font-family: 'Fira Code','JetBrains Mono','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
 
     @keyframes creep { from { transform: translate(0,0); } to { transform: translate(-26px,26px); } }
-    @keyframes scan  { from { transform: translateX(-200px) skewX(-16deg); } to { transform: translateX(1100px) skewX(-16deg); } }
     @keyframes dot   { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes float { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-10px) rotate(3deg); } }
     @keyframes ping  { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(1.9); opacity: 0; } }
-    @keyframes rise  { from { transform: translateY(0); opacity: 0; } 15% { opacity: .5; } to { transform: translateY(-140px); opacity: 0; } }
     @keyframes breathe { 0%,100% { opacity: .22; } 50% { opacity: .5; } }
 
-    @keyframes sl1 { 0%{opacity:1;transform:translateX(0)} 18.40%{opacity:1;transform:translateX(0)} 20.00%{opacity:0;transform:translateX(-26px)} 100%{opacity:1;transform:translateX(0)} }
-@keyframes bar1 { 0%,0.00%{transform:scaleX(0)} 0.50%{transform:scaleX(1)} 20.00%{transform:scaleX(1)} 20.10%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
-@keyframes gl1 { 0%,0.00%{opacity:0} 0.50%{opacity:1} 18.40%{opacity:1} 20.00%{opacity:0} 100%{opacity:0} }
-@keyframes sl2 { 0%{opacity:0;transform:translateX(26px)} 20.00%{opacity:0;transform:translateX(26px)} 21.00%{opacity:1;transform:translateX(0)} 38.40%{opacity:1;transform:translateX(0)} 40.00%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
-@keyframes bar2 { 0%,20.00%{transform:scaleX(0)} 20.50%{transform:scaleX(1)} 40.00%{transform:scaleX(1)} 40.10%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
-@keyframes gl2 { 0%,20.00%{opacity:0} 20.50%{opacity:1} 38.40%{opacity:1} 40.00%{opacity:0} 100%{opacity:0} }
-@keyframes sl3 { 0%{opacity:0;transform:translateX(26px)} 40.00%{opacity:0;transform:translateX(26px)} 41.00%{opacity:1;transform:translateX(0)} 58.40%{opacity:1;transform:translateX(0)} 60.00%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
-@keyframes bar3 { 0%,40.00%{transform:scaleX(0)} 40.50%{transform:scaleX(1)} 60.00%{transform:scaleX(1)} 60.10%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
-@keyframes gl3 { 0%,40.00%{opacity:0} 40.50%{opacity:1} 58.40%{opacity:1} 60.00%{opacity:0} 100%{opacity:0} }
-@keyframes sl4 { 0%{opacity:0;transform:translateX(26px)} 60.00%{opacity:0;transform:translateX(26px)} 61.00%{opacity:1;transform:translateX(0)} 78.40%{opacity:1;transform:translateX(0)} 80.00%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
-@keyframes bar4 { 0%,60.00%{transform:scaleX(0)} 60.50%{transform:scaleX(1)} 80.00%{transform:scaleX(1)} 80.10%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
-@keyframes gl4 { 0%,60.00%{opacity:0} 60.50%{opacity:1} 78.40%{opacity:1} 80.00%{opacity:0} 100%{opacity:0} }
-@keyframes sl5 { 0%{opacity:0;transform:translateX(26px)} 80.00%{opacity:0;transform:translateX(26px)} 81.00%{opacity:1;transform:translateX(0)} 98.40%{opacity:1;transform:translateX(0)} 100.00%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
-@keyframes bar5 { 0%,80.00%{transform:scaleX(0)} 80.50%{transform:scaleX(1)} 100.00%{transform:scaleX(1)} 100.10%{transform:scaleX(0)} 100%{transform:scaleX(0)} }
-@keyframes gl5 { 0%,80.00%{opacity:0} 80.50%{opacity:1} 98.40%{opacity:1} 100.00%{opacity:0} 100%{opacity:0} }
+    @keyframes sl1 { 0%{opacity:1;transform:translateX(0)} 18.400%{opacity:1;transform:translateX(0)} 20.000%{opacity:0;transform:translateX(-26px)} 99.9%{opacity:0;transform:translateX(-26px)} 100%{opacity:1;transform:translateX(0)} }
+@keyframes bar1 { 0%,18.400%{transform:scaleX(1)} 20.000%,99.9%{transform:scaleX(0)} 100%{transform:scaleX(1)} }
+@keyframes gl1 { 0%,18.400%{opacity:1} 20.000%,99.9%{opacity:0} 100%{opacity:1} }
+@keyframes sl2 { 0%{opacity:0;transform:translateX(26px)} 20.000%{opacity:0;transform:translateX(26px)} 20.300%{opacity:1;transform:translateX(0)} 38.400%{opacity:1;transform:translateX(0)} 40.000%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
+@keyframes bar2 { 0%,20.000%{transform:scaleX(0)} 20.300%,40.000%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+@keyframes gl2 { 0%,20.000%{opacity:0} 20.300%,38.400%{opacity:1} 40.000%,100%{opacity:0} }
+@keyframes sl3 { 0%{opacity:0;transform:translateX(26px)} 40.000%{opacity:0;transform:translateX(26px)} 40.300%{opacity:1;transform:translateX(0)} 58.400%{opacity:1;transform:translateX(0)} 60.000%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
+@keyframes bar3 { 0%,40.000%{transform:scaleX(0)} 40.300%,60.000%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+@keyframes gl3 { 0%,40.000%{opacity:0} 40.300%,58.400%{opacity:1} 60.000%,100%{opacity:0} }
+@keyframes sl4 { 0%{opacity:0;transform:translateX(26px)} 60.000%{opacity:0;transform:translateX(26px)} 60.300%{opacity:1;transform:translateX(0)} 78.400%{opacity:1;transform:translateX(0)} 80.000%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
+@keyframes bar4 { 0%,60.000%{transform:scaleX(0)} 60.300%,80.000%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+@keyframes gl4 { 0%,60.000%{opacity:0} 60.300%,78.400%{opacity:1} 80.000%,100%{opacity:0} }
+@keyframes sl5 { 0%{opacity:0;transform:translateX(26px)} 80.000%{opacity:0;transform:translateX(26px)} 80.300%{opacity:1;transform:translateX(0)} 98.400%{opacity:1;transform:translateX(0)} 100.000%{opacity:0;transform:translateX(-26px)} 100%{opacity:0;transform:translateX(26px)} }
+@keyframes bar5 { 0%,80.000%{transform:scaleX(0)} 80.300%,100.000%{transform:scaleX(1)} 100%{transform:scaleX(0)} }
+@keyframes gl5 { 0%,80.000%{opacity:0} 80.300%,98.400%{opacity:1} 100.000%,100%{opacity:0} }
 
     .mesh  { animation: creep 5s linear infinite; }
-    .beam  { animation: scan 7s cubic-bezier(.45,0,.55,1) infinite; }
     .dotb  { animation: dot 1.6s ease-in-out infinite; }
     .ghost { transform-box: fill-box; transform-origin: 50% 50%; animation: float 8s ease-in-out infinite; }
     .pingr { transform-box: fill-box; transform-origin: 50% 50%; animation: ping 2.4s cubic-bezier(.2,.7,.4,1) infinite; }
-    .spark { animation-name: rise; animation-timing-function: linear; animation-iteration-count: infinite; }
 
     .sl1 { opacity: 1; animation: sl1 10s linear infinite; transform-box: fill-box; transform-origin: 50% 50%; }
 .sl2 { opacity: 0; animation: sl2 10s linear infinite; transform-box: fill-box; transform-origin: 50% 50%; }
@@ -52,7 +48,7 @@
 .bar5 { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: bar5 10s linear infinite; }
 
     @media (prefers-reduced-motion: reduce) {
-      .mesh,.beam,.dotb,.ghost,.pingr,.spark { animation: none; }
+      .mesh,.dotb,.ghost,.pingr { animation: none; }
       .sl1, .sl2, .sl3, .sl4, .sl5 { animation: none; }
       .glow1, .glow2, .glow3, .glow4, .glow5 { animation: none; }
       .bar1, .bar2, .bar3, .bar4, .bar5 { animation: none; }
@@ -60,15 +56,11 @@
     }
   </style>
   <defs>
-    <clipPath id="c"><rect width="900" height="300" rx="16"/></clipPath>
+    <clipPath id="c"><rect width="900" height="400" rx="16"/></clipPath>
+    <clipPath id="cardclip"><rect x="24" y="24" width="852" height="352" rx="20"/></clipPath>
     <pattern id="mp" width="26" height="26" patternUnits="userSpaceOnUse">
       <path d="M26 0H0V26" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
     </pattern>
-    <linearGradient id="sg" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#fff" stop-opacity=".05"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
     <radialGradient id="glow1grad" cx="1" cy="0" r="1"><stop offset="0" stop-color="#58a6ff" stop-opacity=".9"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
     <radialGradient id="glow2grad" cx="1" cy="0" r="1"><stop offset="0" stop-color="#f59e0b" stop-opacity=".9"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
     <radialGradient id="glow3grad" cx="1" cy="0" r="1"><stop offset="0" stop-color="#c084fc" stop-opacity=".9"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
@@ -77,140 +69,170 @@
   </defs>
 
   <g clip-path="url(#c)">
-    <rect width="900" height="300" fill="#0a0a0a"/>
-    <g class="mesh"><rect x="-26" y="-26" width="960" height="360" fill="url(#mp)"/></g>
+    <rect width="900" height="400" fill="#05070a"/>
+    <g class="mesh"><rect x="-26" y="-26" width="960" height="460" fill="url(#mp)"/></g>
 
-    <circle class="glow1" cx="880" cy="10" r="220" fill="url(#glow1grad)"/>
-    <circle class="glow2" cx="880" cy="10" r="220" fill="url(#glow2grad)"/>
-    <circle class="glow3" cx="880" cy="10" r="220" fill="url(#glow3grad)"/>
-    <circle class="glow4" cx="880" cy="10" r="220" fill="url(#glow4grad)"/>
-    <circle class="glow5" cx="880" cy="10" r="220" fill="url(#glow5grad)"/>
-
-    <circle class="spark" cx="520" cy="300" r="1.6" fill="#fff" style="animation-duration:9s;animation-delay:-2s"/>
-    <circle class="spark" cx="650" cy="300" r="2.1" fill="#fff" style="animation-duration:7.4s;animation-delay:-5.1s"/>
-    <circle class="spark" cx="760" cy="300" r="1.4" fill="#fff" style="animation-duration:10.2s;animation-delay:-1.2s"/>
-    <circle class="spark" cx="600" cy="300" r="1.8" fill="#fff" style="animation-duration:8.3s;animation-delay:-6.6s"/>
-
-    <rect class="beam" x="-200" y="-30" width="110" height="370" fill="url(#sg)"/>
+    <g clip-path="url(#cardclip)">
+    <circle class="glow1" cx="856" cy="34" r="220" fill="url(#glow1grad)"/>
+    <circle class="glow2" cx="856" cy="34" r="220" fill="url(#glow2grad)"/>
+    <circle class="glow3" cx="856" cy="34" r="220" fill="url(#glow3grad)"/>
+    <circle class="glow4" cx="856" cy="34" r="220" fill="url(#glow4grad)"/>
+    <circle class="glow5" cx="856" cy="34" r="220" fill="url(#glow5grad)"/>
+    </g>
 
     <!-- progress segments -->
 
-    <rect x="30.0" y="22" width="158.4" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
-    <rect class="bar1" x="30.0" y="22" width="158.4" height="3" rx="1.5" fill="#58a6ff"/>
-    <rect x="200.4" y="22" width="158.4" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
-    <rect class="bar2" x="200.4" y="22" width="158.4" height="3" rx="1.5" fill="#f59e0b"/>
-    <rect x="370.8" y="22" width="158.4" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
-    <rect class="bar3" x="370.8" y="22" width="158.4" height="3" rx="1.5" fill="#c084fc"/>
-    <rect x="541.2" y="22" width="158.4" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
-    <rect class="bar4" x="541.2" y="22" width="158.4" height="3" rx="1.5" fill="#4ade80"/>
-    <rect x="711.6" y="22" width="158.4" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
-    <rect class="bar5" x="711.6" y="22" width="158.4" height="3" rx="1.5" fill="#ff6b6b"/>
+    <rect x="24.0" y="42" width="160.8" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar1" x="24.0" y="42" width="160.8" height="3" rx="1.5" fill="#58a6ff"/>
+    <rect x="196.8" y="42" width="160.8" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar2" x="196.8" y="42" width="160.8" height="3" rx="1.5" fill="#f59e0b"/>
+    <rect x="369.6" y="42" width="160.8" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar3" x="369.6" y="42" width="160.8" height="3" rx="1.5" fill="#c084fc"/>
+    <rect x="542.4" y="42" width="160.8" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar4" x="542.4" y="42" width="160.8" height="3" rx="1.5" fill="#4ade80"/>
+    <rect x="715.2" y="42" width="160.8" height="3" rx="1.5" fill="#ffffff" fill-opacity=".12"/>
+    <rect class="bar5" x="715.2" y="42" width="160.8" height="3" rx="1.5" fill="#ff6b6b"/>
 
     <!-- slide 1: Curso de JavaScript -->
     <g class="sl1">
-      <g class="ghost" transform="translate(600 150) scale(7)" fill="none" stroke="#58a6ff" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- card -->
+      <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#58a6ff" stroke-opacity=".55" stroke-width="1.6"/>
+      <rect x="24" y="24" width="6" height="352" rx="3" fill="#58a6ff"/>
+
+      <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#58a6ff" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <circle class="pingr" cx="96" cy="150" r="46" fill="none" stroke="#58a6ff" stroke-width="2"/>
-      <rect x="50" y="104" width="92" height="92" rx="20" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff" stroke-opacity=".45"/>
-      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+
+      <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#58a6ff" stroke-width="2"/>
+      <rect x="54" y="128" width="92" height="92" rx="20" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff" stroke-opacity=".45"/>
+      <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#58a6ff">WEB APP</text>
-      <rect x="721" y="62" width="109" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
-      <circle class="dotb" cx="737" cy="75" r="4" fill="#58a6ff"/>
-      <text x="749" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
-      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">Curso de JavaScript</text>
-      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Coursework for Advanced Application Development,</text>
-      <text x="180" y="212" font-size="14.5" fill="#9da7b3">hands-on JavaScript exercises and mini-projects.</text>
+
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#58a6ff">WEB APP</text>
+      <rect x="718" y="44" width="138" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
+      <circle class="dotb" cx="734" cy="57" r="4" fill="#58a6ff"/>
+      <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+
+      <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Curso de JavaScript</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Coursework for Advanced Application Development,</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">hands-on JavaScript exercises and mini-projects.</text>
       <g class="mono" font-size="12.5">
-        <rect x="180" y="230" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="232" y="248" text-anchor="middle" fill="#e6edf3">JavaScript</text><rect x="294" y="230" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="346" y="248" text-anchor="middle" fill="#e6edf3">Coursework</text>
+        <rect x="184" y="258" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="236" y="276" text-anchor="middle" fill="#e6edf3">JavaScript</text><rect x="298" y="258" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="350" y="276" text-anchor="middle" fill="#e6edf3">Coursework</text>
       </g>
     </g>
     <!-- slide 2: SecureDocs -->
     <g class="sl2">
-      <g class="ghost" transform="translate(600 150) scale(7)" fill="none" stroke="#f59e0b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- card -->
+      <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#f59e0b" stroke-opacity=".55" stroke-width="1.6"/>
+      <rect x="24" y="24" width="6" height="352" rx="3" fill="#f59e0b"/>
+
+      <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#f59e0b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <circle class="pingr" cx="96" cy="150" r="46" fill="none" stroke="#f59e0b" stroke-width="2"/>
-      <rect x="50" y="104" width="92" height="92" rx="20" fill="#f59e0b" fill-opacity=".13" stroke="#f59e0b" stroke-opacity=".45"/>
-      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#f59e0b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+
+      <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#f59e0b" stroke-width="2"/>
+      <rect x="54" y="128" width="92" height="92" rx="20" fill="#f59e0b" fill-opacity=".13" stroke="#f59e0b" stroke-opacity=".45"/>
+      <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#f59e0b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#f59e0b">SECURITY</text>
-      <rect x="714" y="62" width="116" height="26" rx="13" fill="#f59e0b" fill-opacity=".14" stroke="#f59e0b" stroke-opacity=".55"/>
-      <circle class="dotb" cx="730" cy="75" r="4" fill="#f59e0b"/>
-      <text x="742" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
-      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">SecureDocs</text>
-      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Document management platform with a focus on</text>
-      <text x="180" y="212" font-size="14.5" fill="#9da7b3">security: access control and encrypted storage.</text>
+
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#f59e0b">SECURITY</text>
+      <rect x="718" y="44" width="138" height="26" rx="13" fill="#f59e0b" fill-opacity=".14" stroke="#f59e0b" stroke-opacity=".55"/>
+      <circle class="dotb" cx="734" cy="57" r="4" fill="#f59e0b"/>
+      <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+
+      <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">SecureDocs</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Document management platform with a focus on</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">security: access control and encrypted storage.</text>
       <g class="mono" font-size="12.5">
-        <rect x="180" y="230" width="88" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="224" y="248" text-anchor="middle" fill="#e6edf3">Security</text><rect x="278" y="230" width="56" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="306" y="248" text-anchor="middle" fill="#e6edf3">Docs</text><rect x="344" y="230" width="80" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="384" y="248" text-anchor="middle" fill="#e6edf3">Backend</text>
+        <rect x="184" y="258" width="88" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="228" y="276" text-anchor="middle" fill="#e6edf3">Security</text><rect x="282" y="258" width="56" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="310" y="276" text-anchor="middle" fill="#e6edf3">Docs</text><rect x="348" y="258" width="80" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="388" y="276" text-anchor="middle" fill="#e6edf3">Backend</text>
       </g>
     </g>
     <!-- slide 3: Monito - Load Balancing -->
     <g class="sl3">
-      <g class="ghost" transform="translate(600 150) scale(7)" fill="none" stroke="#c084fc" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- card -->
+      <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#c084fc" stroke-opacity=".55" stroke-width="1.6"/>
+      <rect x="24" y="24" width="6" height="352" rx="3" fill="#c084fc"/>
+
+      <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#c084fc" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <circle class="pingr" cx="96" cy="150" r="46" fill="none" stroke="#c084fc" stroke-width="2"/>
-      <rect x="50" y="104" width="92" height="92" rx="20" fill="#c084fc" fill-opacity=".13" stroke="#c084fc" stroke-opacity=".45"/>
-      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#c084fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+
+      <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#c084fc" stroke-width="2"/>
+      <rect x="54" y="128" width="92" height="92" rx="20" fill="#c084fc" fill-opacity=".13" stroke="#c084fc" stroke-opacity=".45"/>
+      <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#c084fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#c084fc">CLOUD</text>
-      <rect x="735" y="62" width="95" height="26" rx="13" fill="#c084fc" fill-opacity=".14" stroke="#c084fc" stroke-opacity=".55"/>
-      <circle class="dotb" cx="751" cy="75" r="4" fill="#c084fc"/>
-      <text x="763" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">Learning AWS</text>
-      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">Monito - Load Balancing</text>
-      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Cloud solutions coursework: load-balanced app</text>
-      <text x="180" y="212" font-size="14.5" fill="#9da7b3">deployment and infrastructure on AWS.</text>
+
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#c084fc">CLOUD</text>
+      <rect x="732" y="44" width="124" height="26" rx="13" fill="#c084fc" fill-opacity=".14" stroke="#c084fc" stroke-opacity=".55"/>
+      <circle class="dotb" cx="748" cy="57" r="4" fill="#c084fc"/>
+      <text x="760" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">Learning AWS</text>
+
+      <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Monito - Load Balancing</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Cloud solutions coursework: load-balanced app</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">deployment and infrastructure on AWS.</text>
       <g class="mono" font-size="12.5">
-        <rect x="180" y="230" width="48" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="204" y="248" text-anchor="middle" fill="#e6edf3">AWS</text><rect x="238" y="230" width="136" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="306" y="248" text-anchor="middle" fill="#e6edf3">Load Balancing</text><rect x="384" y="230" width="64" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="416" y="248" text-anchor="middle" fill="#e6edf3">Cloud</text>
+        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">AWS</text><rect x="242" y="258" width="136" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="310" y="276" text-anchor="middle" fill="#e6edf3">Load Balancing</text><rect x="388" y="258" width="64" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="420" y="276" text-anchor="middle" fill="#e6edf3">Cloud</text>
       </g>
     </g>
     <!-- slide 4: Tech Store -->
     <g class="sl4">
-      <g class="ghost" transform="translate(600 150) scale(7)" fill="none" stroke="#4ade80" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- card -->
+      <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#4ade80" stroke-opacity=".55" stroke-width="1.6"/>
+      <rect x="24" y="24" width="6" height="352" rx="3" fill="#4ade80"/>
+
+      <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#4ade80" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <circle class="pingr" cx="96" cy="150" r="46" fill="none" stroke="#4ade80" stroke-width="2"/>
-      <rect x="50" y="104" width="92" height="92" rx="20" fill="#4ade80" fill-opacity=".13" stroke="#4ade80" stroke-opacity=".45"/>
-      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#4ade80" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+
+      <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#4ade80" stroke-width="2"/>
+      <rect x="54" y="128" width="92" height="92" rx="20" fill="#4ade80" fill-opacity=".13" stroke="#4ade80" stroke-opacity=".45"/>
+      <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#4ade80" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#4ade80">E-COMMERCE</text>
-      <rect x="700" y="62" width="130" height="26" rx="13" fill="#4ade80" fill-opacity=".14" stroke="#4ade80" stroke-opacity=".55"/>
-      <circle class="dotb" cx="716" cy="75" r="4" fill="#4ade80"/>
-      <text x="728" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
-      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">Tech Store</text>
-      <text x="180" y="190" font-size="14.5" fill="#9da7b3">E-commerce web app for a tech store: catalog,</text>
-      <text x="180" y="212" font-size="14.5" fill="#9da7b3">cart and checkout flow.</text>
+
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#4ade80">E-COMMERCE</text>
+      <rect x="718" y="44" width="138" height="26" rx="13" fill="#4ade80" fill-opacity=".14" stroke="#4ade80" stroke-opacity=".55"/>
+      <circle class="dotb" cx="734" cy="57" r="4" fill="#4ade80"/>
+      <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+
+      <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Tech Store</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">E-commerce web app for a tech store: catalog,</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">cart and checkout flow.</text>
       <g class="mono" font-size="12.5">
-        <rect x="180" y="230" width="48" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="204" y="248" text-anchor="middle" fill="#e6edf3">Web</text><rect x="238" y="230" width="104" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="290" y="248" text-anchor="middle" fill="#e6edf3">E-commerce</text>
+        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">Web</text><rect x="242" y="258" width="104" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="294" y="276" text-anchor="middle" fill="#e6edf3">E-commerce</text>
       </g>
     </g>
     <!-- slide 5: MediGuard -->
     <g class="sl5">
-      <g class="ghost" transform="translate(600 150) scale(7)" fill="none" stroke="#ff6b6b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- card -->
+      <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#ff6b6b" stroke-opacity=".55" stroke-width="1.6"/>
+      <rect x="24" y="24" width="6" height="352" rx="3" fill="#ff6b6b"/>
+
+      <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#ff6b6b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <circle class="pingr" cx="96" cy="150" r="46" fill="none" stroke="#ff6b6b" stroke-width="2"/>
-      <rect x="50" y="104" width="92" height="92" rx="20" fill="#ff6b6b" fill-opacity=".13" stroke="#ff6b6b" stroke-opacity=".45"/>
-      <g transform="translate(72 126) scale(1.9)" fill="none" stroke="#ff6b6b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+
+      <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+      <rect x="54" y="128" width="92" height="92" rx="20" fill="#ff6b6b" fill-opacity=".13" stroke="#ff6b6b" stroke-opacity=".45"/>
+      <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#ff6b6b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
         <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
       </g>
-      <text class="mono" x="180" y="80" font-size="12" letter-spacing="2" fill="#ff6b6b">HEALTH</text>
-      <rect x="728" y="62" width="102" height="26" rx="13" fill="#ff6b6b" fill-opacity=".14" stroke="#ff6b6b" stroke-opacity=".55"/>
-      <circle class="dotb" cx="744" cy="75" r="4" fill="#ff6b6b"/>
-      <text x="756" y="79" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
-      <text x="180" y="156" font-size="30" font-weight="700" fill="#fff">MediGuard</text>
-      <text x="180" y="190" font-size="14.5" fill="#9da7b3">Health-focused web platform for guarding and</text>
-      <text x="180" y="212" font-size="14.5" fill="#9da7b3">tracking medical information.</text>
+
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#ff6b6b">HEALTH</text>
+      <rect x="718" y="44" width="138" height="26" rx="13" fill="#ff6b6b" fill-opacity=".14" stroke="#ff6b6b" stroke-opacity=".55"/>
+      <circle class="dotb" cx="734" cy="57" r="4" fill="#ff6b6b"/>
+      <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+
+      <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">MediGuard</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Health-focused web platform for guarding and</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">tracking medical information.</text>
       <g class="mono" font-size="12.5">
-        <rect x="180" y="230" width="48" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="204" y="248" text-anchor="middle" fill="#e6edf3">Web</text><rect x="238" y="230" width="72" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="274" y="248" text-anchor="middle" fill="#e6edf3">Health</text>
+        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">Web</text><rect x="242" y="258" width="72" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="278" y="276" text-anchor="middle" fill="#e6edf3">Health</text>
       </g>
     </g>
   </g>
-  <rect x=".5" y=".5" width="899" height="299" rx="16" fill="none" stroke="#333"/>
+  <rect x=".5" y=".5" width="899" height="399" rx="16" fill="none" stroke="#333"/>
 </svg>
