@@ -1,17 +1,12 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup" />
+<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup. View my portfolio." />
 
 <br/><br/>
 
 <img src="https://visitor-badge.laobi.icu/badge?page_id=Rony10-az.Rony10-az&style=for-the-badge&color=111111&left_text=PROFILE%20VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub followers" />
 <img src="https://img.shields.io/github/stars/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub stars" />
-
-<br/><br/>
-
-<!-- TODO: replace with the real portfolio URL -->
-<a href="https://rony10-az.github.io"><img src="./assets/portfolio-button.svg" height="56" alt="View my portfolio" /></a>
 
 </div>
 
@@ -100,10 +95,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
   <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Rony10-az/Rony10-az/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
 
 <br/><br/>
 
