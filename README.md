@@ -1,6 +1,17 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup. Profile views, followers and stars. View my portfolio." />
+<img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Rony10-az&style=for-the-badge&color=111111&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub followers" />
+<img src="https://img.shields.io/github/stars/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub stars" />
+
+<br/><br/>
+
+<!-- TODO: replace with the real portfolio URL -->
+<a href="https://rony10-az.github.io"><img src="./assets/portfolio-button.svg" height="56" alt="View my portfolio" /></a>
 
 </div>
 
