@@ -86,21 +86,13 @@
     <g class="grid"><rect x="-44" y="-44" width="990" height="470" fill="url(#gp)"/></g>
 
     <text class="rain mono" x="22" y="-40" style="animation-duration:6.4s;animation-delay:-6.2s"><tspan x="22" dy="0">1</tspan><tspan x="22" dy="26">1</tspan><tspan x="22" dy="26">0</tspan><tspan x="22" dy="26">1</tspan><tspan x="22" dy="26">0</tspan><tspan x="22" dy="26">0</tspan><tspan x="22" dy="26">0</tspan><tspan x="22" dy="26">0</tspan><tspan x="22" dy="26">1</tspan></text>
-    <text class="rain mono" x="78" y="-40" style="animation-duration:10.6s;animation-delay:-3.9s"><tspan x="78" dy="0">0</tspan><tspan x="78" dy="26">0</tspan><tspan x="78" dy="26">0</tspan><tspan x="78" dy="26">0</tspan><tspan x="78" dy="26">1</tspan><tspan x="78" dy="26">1</tspan><tspan x="78" dy="26">1</tspan><tspan x="78" dy="26">0</tspan><tspan x="78" dy="26">1</tspan></text>
     <text class="rain mono" x="134" y="-40" style="animation-duration:8.5s;animation-delay:-6.2s"><tspan x="134" dy="0">1</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">1</tspan><tspan x="134" dy="26">0</tspan><tspan x="134" dy="26">1</tspan></text>
-    <text class="rain mono" x="190" y="-40" style="animation-duration:7.7s;animation-delay:-1.4s"><tspan x="190" dy="0">0</tspan><tspan x="190" dy="26">1</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">0</tspan><tspan x="190" dy="26">1</tspan></text>
     <text class="rain mono" x="246" y="-40" style="animation-duration:8.6s;animation-delay:-3.5s"><tspan x="246" dy="0">1</tspan><tspan x="246" dy="26">0</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan><tspan x="246" dy="26">1</tspan></text>
-    <text class="rain mono" x="302" y="-40" style="animation-duration:7.6s;animation-delay:-0.2s"><tspan x="302" dy="0">0</tspan><tspan x="302" dy="26">0</tspan><tspan x="302" dy="26">1</tspan><tspan x="302" dy="26">0</tspan><tspan x="302" dy="26">1</tspan><tspan x="302" dy="26">0</tspan><tspan x="302" dy="26">0</tspan><tspan x="302" dy="26">1</tspan><tspan x="302" dy="26">0</tspan></text>
     <text class="rain mono" x="358" y="-40" style="animation-duration:6.5s;animation-delay:-1.5s"><tspan x="358" dy="0">1</tspan><tspan x="358" dy="26">1</tspan><tspan x="358" dy="26">1</tspan><tspan x="358" dy="26">1</tspan><tspan x="358" dy="26">0</tspan><tspan x="358" dy="26">0</tspan><tspan x="358" dy="26">0</tspan><tspan x="358" dy="26">0</tspan><tspan x="358" dy="26">0</tspan></text>
-    <text class="rain mono" x="414" y="-40" style="animation-duration:9.8s;animation-delay:-3.4s"><tspan x="414" dy="0">0</tspan><tspan x="414" dy="26">0</tspan><tspan x="414" dy="26">1</tspan><tspan x="414" dy="26">0</tspan><tspan x="414" dy="26">0</tspan><tspan x="414" dy="26">1</tspan><tspan x="414" dy="26">1</tspan><tspan x="414" dy="26">1</tspan><tspan x="414" dy="26">0</tspan></text>
     <text class="rain mono" x="470" y="-40" style="animation-duration:10.6s;animation-delay:-2.2s"><tspan x="470" dy="0">0</tspan><tspan x="470" dy="26">1</tspan><tspan x="470" dy="26">1</tspan><tspan x="470" dy="26">1</tspan><tspan x="470" dy="26">0</tspan><tspan x="470" dy="26">1</tspan><tspan x="470" dy="26">0</tspan><tspan x="470" dy="26">1</tspan><tspan x="470" dy="26">1</tspan></text>
-    <text class="rain mono" x="526" y="-40" style="animation-duration:5.7s;animation-delay:-2.2s"><tspan x="526" dy="0">1</tspan><tspan x="526" dy="26">0</tspan><tspan x="526" dy="26">1</tspan><tspan x="526" dy="26">0</tspan><tspan x="526" dy="26">0</tspan><tspan x="526" dy="26">1</tspan><tspan x="526" dy="26">0</tspan><tspan x="526" dy="26">1</tspan><tspan x="526" dy="26">0</tspan></text>
     <text class="rain mono" x="582" y="-40" style="animation-duration:10.8s;animation-delay:-4.7s"><tspan x="582" dy="0">1</tspan><tspan x="582" dy="26">0</tspan><tspan x="582" dy="26">0</tspan><tspan x="582" dy="26">1</tspan><tspan x="582" dy="26">0</tspan><tspan x="582" dy="26">1</tspan><tspan x="582" dy="26">1</tspan><tspan x="582" dy="26">1</tspan><tspan x="582" dy="26">1</tspan></text>
-    <text class="rain mono" x="638" y="-40" style="animation-duration:7.2s;animation-delay:-4.8s"><tspan x="638" dy="0">1</tspan><tspan x="638" dy="26">0</tspan><tspan x="638" dy="26">0</tspan><tspan x="638" dy="26">1</tspan><tspan x="638" dy="26">0</tspan><tspan x="638" dy="26">0</tspan><tspan x="638" dy="26">1</tspan><tspan x="638" dy="26">1</tspan><tspan x="638" dy="26">0</tspan></text>
     <text class="rain mono" x="694" y="-40" style="animation-duration:10.2s;animation-delay:-5.3s"><tspan x="694" dy="0">1</tspan><tspan x="694" dy="26">1</tspan><tspan x="694" dy="26">0</tspan><tspan x="694" dy="26">0</tspan><tspan x="694" dy="26">0</tspan><tspan x="694" dy="26">0</tspan><tspan x="694" dy="26">1</tspan><tspan x="694" dy="26">0</tspan><tspan x="694" dy="26">0</tspan></text>
-    <text class="rain mono" x="750" y="-40" style="animation-duration:5.6s;animation-delay:-4.0s"><tspan x="750" dy="0">0</tspan><tspan x="750" dy="26">0</tspan><tspan x="750" dy="26">0</tspan><tspan x="750" dy="26">1</tspan><tspan x="750" dy="26">0</tspan><tspan x="750" dy="26">1</tspan><tspan x="750" dy="26">1</tspan><tspan x="750" dy="26">1</tspan><tspan x="750" dy="26">1</tspan></text>
     <text class="rain mono" x="806" y="-40" style="animation-duration:10.4s;animation-delay:-5.6s"><tspan x="806" dy="0">0</tspan><tspan x="806" dy="26">0</tspan><tspan x="806" dy="26">1</tspan><tspan x="806" dy="26">0</tspan><tspan x="806" dy="26">0</tspan><tspan x="806" dy="26">0</tspan><tspan x="806" dy="26">0</tspan><tspan x="806" dy="26">1</tspan><tspan x="806" dy="26">1</tspan></text>
-    <text class="rain mono" x="862" y="-40" style="animation-duration:10.3s;animation-delay:-3.6s"><tspan x="862" dy="0">0</tspan><tspan x="862" dy="26">0</tspan><tspan x="862" dy="26">1</tspan><tspan x="862" dy="26">1</tspan><tspan x="862" dy="26">0</tspan><tspan x="862" dy="26">0</tspan><tspan x="862" dy="26">1</tspan><tspan x="862" dy="26">0</tspan><tspan x="862" dy="26">1</tspan></text>
 
     <circle class="halo" cx="720" cy="170" r="200" fill="url(#halo)"/>
 
@@ -116,45 +108,25 @@
     <rect y="200" width="900" height="180" fill="url(#vign)"/>
 
     <rect class="eq" x="520" y="296" width="6" height="34" rx="3" style="animation-duration:1.6s;animation-delay:-1.58s"/>
-    <rect class="eq" x="534" y="304" width="6" height="26" rx="3" style="animation-duration:1.35s;animation-delay:-0.88s"/>
     <rect class="eq" x="548" y="306" width="6" height="24" rx="3" style="animation-duration:0.91s;animation-delay:-0.96s"/>
-    <rect class="eq" x="562" y="306" width="6" height="24" rx="3" style="animation-duration:1.45s;animation-delay:-0.52s"/>
     <rect class="eq" x="576" y="306" width="6" height="24" rx="3" style="animation-duration:1.14s;animation-delay:-1.12s"/>
-    <rect class="eq" x="590" y="303" width="6" height="27" rx="3" style="animation-duration:1.63s;animation-delay:-0.3s"/>
     <rect class="eq" x="604" y="311" width="6" height="19" rx="3" style="animation-duration:1.7s;animation-delay:-1.56s"/>
-    <rect class="eq" x="618" y="309" width="6" height="21" rx="3" style="animation-duration:0.87s;animation-delay:-1.05s"/>
     <rect class="eq" x="632" y="320" width="6" height="10" rx="3" style="animation-duration:0.92s;animation-delay:-0.12s"/>
-    <rect class="eq" x="646" y="308" width="6" height="22" rx="3" style="animation-duration:1.49s;animation-delay:-1.29s"/>
     <rect class="eq" x="660" y="301" width="6" height="29" rx="3" style="animation-duration:1.36s;animation-delay:-1.52s"/>
-    <rect class="eq" x="674" y="306" width="6" height="24" rx="3" style="animation-duration:1.51s;animation-delay:-0.71s"/>
     <rect class="eq" x="688" y="320" width="6" height="10" rx="3" style="animation-duration:1.36s;animation-delay:-1.4s"/>
-    <rect class="eq" x="702" y="309" width="6" height="21" rx="3" style="animation-duration:1.05s;animation-delay:-0.08s"/>
     <rect class="eq" x="716" y="304" width="6" height="26" rx="3" style="animation-duration:0.85s;animation-delay:-0.44s"/>
-    <rect class="eq" x="730" y="308" width="6" height="22" rx="3" style="animation-duration:1.7s;animation-delay:-1.16s"/>
     <rect class="eq" x="744" y="312" width="6" height="18" rx="3" style="animation-duration:1.68s;animation-delay:-0.64s"/>
-    <rect class="eq" x="758" y="302" width="6" height="28" rx="3" style="animation-duration:1.34s;animation-delay:-1.01s"/>
     <rect class="eq" x="772" y="307" width="6" height="23" rx="3" style="animation-duration:0.89s;animation-delay:-0.77s"/>
-    <rect class="eq" x="786" y="316" width="6" height="14" rx="3" style="animation-duration:1.21s;animation-delay:-0.97s"/>
     <rect class="eq" x="800" y="298" width="6" height="32" rx="3" style="animation-duration:1.66s;animation-delay:-1.0s"/>
-    <rect class="eq" x="814" y="303" width="6" height="27" rx="3" style="animation-duration:1.48s;animation-delay:-1.17s"/>
     <rect class="eq" x="828" y="315" width="6" height="15" rx="3" style="animation-duration:1.57s;animation-delay:-1.09s"/>
-    <rect class="eq" x="842" y="313" width="6" height="17" rx="3" style="animation-duration:1.33s;animation-delay:-0.8s"/>
     <rect class="eq" x="856" y="300" width="6" height="30" rx="3" style="animation-duration:1.48s;animation-delay:-1.32s"/>
-    <rect class="eq" x="870" y="312" width="6" height="18" rx="3" style="animation-duration:1.89s;animation-delay:-0.01s"/>
     <circle class="p" cx="236" cy="390" r="1.5" style="animation-duration:9.7s;animation-delay:-1.7s"/>
-    <circle class="p" cx="596" cy="390" r="1.3" style="animation-duration:10.7s;animation-delay:-7.4s"/>
     <circle class="p" cx="414" cy="390" r="2.2" style="animation-duration:10.2s;animation-delay:-1.3s"/>
-    <circle class="p" cx="200" cy="390" r="2.1" style="animation-duration:8.4s;animation-delay:-4.0s"/>
     <circle class="p" cx="686" cy="390" r="1.9" style="animation-duration:8.3s;animation-delay:-1.0s"/>
-    <circle class="p" cx="59" cy="390" r="1.5" style="animation-duration:8.8s;animation-delay:-10.1s"/>
     <circle class="p" cx="187" cy="390" r="2.4" style="animation-duration:10.5s;animation-delay:-2.9s"/>
-    <circle class="p" cx="734" cy="390" r="1.4" style="animation-duration:9.7s;animation-delay:-11.3s"/>
     <circle class="p" cx="508" cy="390" r="1.6" style="animation-duration:10.2s;animation-delay:-8.0s"/>
-    <circle class="p" cx="715" cy="390" r="1.3" style="animation-duration:9.7s;animation-delay:-3.3s"/>
     <circle class="p" cx="222" cy="390" r="2.6" style="animation-duration:8.5s;animation-delay:-4.2s"/>
-    <circle class="p" cx="674" cy="390" r="2.5" style="animation-duration:11.9s;animation-delay:-0.2s"/>
     <circle class="p" cx="543" cy="390" r="1.9" style="animation-duration:9.8s;animation-delay:-5.3s"/>
-    <circle class="p" cx="490" cy="390" r="1.4" style="animation-duration:7.1s;animation-delay:-6.5s"/>
 
     <!-- texto -->
     <text class="hi mono" x="56" y="98" font-size="29" font-weight="600" fill="#9a9a9a">Hi, I'm</text>

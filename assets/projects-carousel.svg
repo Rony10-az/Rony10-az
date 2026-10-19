@@ -95,46 +95,50 @@
 
     <!-- slide 1: Curso de JavaScript -->
     <g class="sl1">
-      <!-- card -->
       <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#58a6ff" stroke-opacity=".55" stroke-width="1.6"/>
       <rect x="24" y="24" width="6" height="352" rx="3" fill="#58a6ff"/>
 
       <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#58a6ff" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M6.5 3H18a1 1 0 0 1 1 1v15.5a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 18V5.5A2.5 2.5 0 0 1 6.5 3Z"/><path d="M8 7.5h8M8 11.5h6"/>
       </g>
 
       <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#58a6ff" stroke-width="2"/>
       <rect x="54" y="128" width="92" height="92" rx="20" fill="#58a6ff" fill-opacity=".13" stroke="#58a6ff" stroke-opacity=".45"/>
       <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#58a6ff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M6.5 3H18a1 1 0 0 1 1 1v15.5a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 18V5.5A2.5 2.5 0 0 1 6.5 3Z"/><path d="M8 7.5h8M8 11.5h6"/>
+      </g>
+      <g transform="translate(78 152) scale(1.9)">
+        
       </g>
 
-      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#58a6ff">WEB APP</text>
-      <rect x="718" y="44" width="138" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
-      <circle class="dotb" cx="734" cy="57" r="4" fill="#58a6ff"/>
-      <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
+      <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#58a6ff">COURSEWORK</text>
+      <rect x="725" y="44" width="131" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/>
+      <circle class="dotb" cx="741" cy="57" r="4" fill="#58a6ff"/>
+      <text x="753" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">9 weekly labs</text>
 
       <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Curso de JavaScript</text>
-      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Coursework for Advanced Application Development,</text>
-      <text x="184" y="238" font-size="14.5" fill="#9da7b3">hands-on JavaScript exercises and mini-projects.</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Weekly JavaScript labs (Semana 01-09) for Advanced</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">Application Development, with deployed demos.</text>
       <g class="mono" font-size="12.5">
-        <rect x="184" y="258" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="236" y="276" text-anchor="middle" fill="#e6edf3">JavaScript</text><rect x="298" y="258" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="350" y="276" text-anchor="middle" fill="#e6edf3">Coursework</text>
+        <rect x="184" y="258" width="104" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="236" y="276" text-anchor="middle" fill="#e6edf3">JavaScript</text><rect x="298" y="258" width="112" height="27" rx="13.5" fill="#58a6ff" fill-opacity=".12" stroke="#58a6ff" stroke-opacity=".5"/><text x="354" y="276" text-anchor="middle" fill="#e6edf3">Weekly Labs</text>
       </g>
     </g>
     <!-- slide 2: SecureDocs -->
     <g class="sl2">
-      <!-- card -->
       <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#f59e0b" stroke-opacity=".55" stroke-width="1.6"/>
       <rect x="24" y="24" width="6" height="352" rx="3" fill="#f59e0b"/>
 
       <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#f59e0b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M12 2.6 19 5.9v5.2c0 4.5-3.2 7.9-7 10.1-3.8-2.2-7-5.6-7-10.1V5.9Z"/><path d="M8.8 12.2l2 2 4.2-4.6"/>
       </g>
 
       <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#f59e0b" stroke-width="2"/>
       <rect x="54" y="128" width="92" height="92" rx="20" fill="#f59e0b" fill-opacity=".13" stroke="#f59e0b" stroke-opacity=".45"/>
       <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#f59e0b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M12 2.6 19 5.9v5.2c0 4.5-3.2 7.9-7 10.1-3.8-2.2-7-5.6-7-10.1V5.9Z"/><path d="M8.8 12.2l2 2 4.2-4.6"/>
+      </g>
+      <g transform="translate(78 152) scale(1.9)">
+        
       </g>
 
       <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#f59e0b">SECURITY</text>
@@ -143,26 +147,28 @@
       <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
 
       <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">SecureDocs</text>
-      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Document management platform with a focus on</text>
-      <text x="184" y="238" font-size="14.5" fill="#9da7b3">security: access control and encrypted storage.</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Document management API with Prisma + Postgres,</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">JWT auth and a Dockerized deployment.</text>
       <g class="mono" font-size="12.5">
-        <rect x="184" y="258" width="88" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="228" y="276" text-anchor="middle" fill="#e6edf3">Security</text><rect x="282" y="258" width="56" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="310" y="276" text-anchor="middle" fill="#e6edf3">Docs</text><rect x="348" y="258" width="80" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="388" y="276" text-anchor="middle" fill="#e6edf3">Backend</text>
+        <rect x="184" y="258" width="104" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="236" y="276" text-anchor="middle" fill="#e6edf3">TypeScript</text><rect x="298" y="258" width="72" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="334" y="276" text-anchor="middle" fill="#e6edf3">Prisma</text><rect x="380" y="258" width="72" height="27" rx="13.5" fill="#f59e0b" fill-opacity=".12" stroke="#f59e0b" stroke-opacity=".5"/><text x="416" y="276" text-anchor="middle" fill="#e6edf3">Docker</text>
       </g>
     </g>
     <!-- slide 3: Monito - Load Balancing -->
     <g class="sl3">
-      <!-- card -->
       <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#c084fc" stroke-opacity=".55" stroke-width="1.6"/>
       <rect x="24" y="24" width="6" height="352" rx="3" fill="#c084fc"/>
 
       <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#c084fc" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M7.5 17a4 4 0 0 1-.5-7.9 5 5 0 0 1 9.6-1.8A4.5 4.5 0 0 1 16.5 17h-9Z"/><path d="M9 20h1.6M13.4 20H15"/>
       </g>
 
       <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#c084fc" stroke-width="2"/>
       <rect x="54" y="128" width="92" height="92" rx="20" fill="#c084fc" fill-opacity=".13" stroke="#c084fc" stroke-opacity=".45"/>
       <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#c084fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M7.5 17a4 4 0 0 1-.5-7.9 5 5 0 0 1 9.6-1.8A4.5 4.5 0 0 1 16.5 17h-9Z"/><path d="M9 20h1.6M13.4 20H15"/>
+      </g>
+      <g transform="translate(78 152) scale(1.9)">
+        
       </g>
 
       <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#c084fc">CLOUD</text>
@@ -171,26 +177,28 @@
       <text x="760" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">Learning AWS</text>
 
       <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Monito - Load Balancing</text>
-      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Cloud solutions coursework: load-balanced app</text>
-      <text x="184" y="238" font-size="14.5" fill="#9da7b3">deployment and infrastructure on AWS.</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Dockerized app behind an Nginx load balancer,</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">AWS cloud-solutions coursework.</text>
       <g class="mono" font-size="12.5">
-        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">AWS</text><rect x="242" y="258" width="136" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="310" y="276" text-anchor="middle" fill="#e6edf3">Load Balancing</text><rect x="388" y="258" width="64" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="420" y="276" text-anchor="middle" fill="#e6edf3">Cloud</text>
+        <rect x="184" y="258" width="72" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="220" y="276" text-anchor="middle" fill="#e6edf3">Docker</text><rect x="266" y="258" width="64" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="298" y="276" text-anchor="middle" fill="#e6edf3">Nginx</text><rect x="340" y="258" width="48" height="27" rx="13.5" fill="#c084fc" fill-opacity=".12" stroke="#c084fc" stroke-opacity=".5"/><text x="364" y="276" text-anchor="middle" fill="#e6edf3">AWS</text>
       </g>
     </g>
     <!-- slide 4: Tech Store -->
     <g class="sl4">
-      <!-- card -->
       <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#4ade80" stroke-opacity=".55" stroke-width="1.6"/>
       <rect x="24" y="24" width="6" height="352" rx="3" fill="#4ade80"/>
 
       <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#4ade80" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M4 4h2l1.2 2.4M7.2 6.4 9 14h8l2-6.4H7.2"/>
       </g>
 
       <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#4ade80" stroke-width="2"/>
       <rect x="54" y="128" width="92" height="92" rx="20" fill="#4ade80" fill-opacity=".13" stroke="#4ade80" stroke-opacity=".45"/>
       <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#4ade80" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M4 4h2l1.2 2.4M7.2 6.4 9 14h8l2-6.4H7.2"/>
+      </g>
+      <g transform="translate(78 152) scale(1.9)">
+        <circle cx="9" cy="19" r="1.3" fill="#4ade80" stroke="none"/><circle cx="16" cy="19" r="1.3" fill="#4ade80" stroke="none"/>
       </g>
 
       <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#4ade80">E-COMMERCE</text>
@@ -199,26 +207,28 @@
       <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
 
       <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">Tech Store</text>
-      <text x="184" y="216" font-size="14.5" fill="#9da7b3">E-commerce web app for a tech store: catalog,</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Node.js + Express storefront: product catalog,</text>
       <text x="184" y="238" font-size="14.5" fill="#9da7b3">cart and checkout flow.</text>
       <g class="mono" font-size="12.5">
-        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">Web</text><rect x="242" y="258" width="104" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="294" y="276" text-anchor="middle" fill="#e6edf3">E-commerce</text>
+        <rect x="184" y="258" width="80" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="224" y="276" text-anchor="middle" fill="#e6edf3">Node.js</text><rect x="274" y="258" width="80" height="27" rx="13.5" fill="#4ade80" fill-opacity=".12" stroke="#4ade80" stroke-opacity=".5"/><text x="314" y="276" text-anchor="middle" fill="#e6edf3">Express</text>
       </g>
     </g>
     <!-- slide 5: MediGuard -->
     <g class="sl5">
-      <!-- card -->
       <rect x="24" y="24" width="852" height="352" rx="20" fill="#11151c" stroke="#ff6b6b" stroke-opacity=".55" stroke-width="1.6"/>
       <rect x="24" y="24" width="6" height="352" rx="3" fill="#ff6b6b"/>
 
       <g class="ghost" transform="translate(656 200.0) scale(7)" fill="none" stroke="#ff6b6b" stroke-opacity=".07" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M12 20.2S4.8 15.9 4.8 10.3a4.3 4.3 0 0 1 7.2-3.2A4.3 4.3 0 0 1 19.2 10.3C19.2 15.9 12 20.2 12 20.2Z"/><path d="M6.5 11h2l1.3-2.6 1.7 4.6 1.3-2h3.2"/>
       </g>
 
       <circle class="pingr" cx="100" cy="174" r="46" fill="none" stroke="#ff6b6b" stroke-width="2"/>
       <rect x="54" y="128" width="92" height="92" rx="20" fill="#ff6b6b" fill-opacity=".13" stroke="#ff6b6b" stroke-opacity=".45"/>
       <g transform="translate(78 152) scale(1.9)" fill="none" stroke="#ff6b6b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M9 7 4 12l5 5M15 7l5 5-5 5"/>
+        <path d="M12 20.2S4.8 15.9 4.8 10.3a4.3 4.3 0 0 1 7.2-3.2A4.3 4.3 0 0 1 19.2 10.3C19.2 15.9 12 20.2 12 20.2Z"/><path d="M6.5 11h2l1.3-2.6 1.7 4.6 1.3-2h3.2"/>
+      </g>
+      <g transform="translate(78 152) scale(1.9)">
+        
       </g>
 
       <text class="mono" x="184" y="62" font-size="12" letter-spacing="2" fill="#ff6b6b">HEALTH</text>
@@ -227,10 +237,10 @@
       <text x="746" y="61" font-size="11.5" font-weight="600" fill="#e6edf3">In development</text>
 
       <text x="184" y="180" font-size="30" font-weight="700" fill="#fff">MediGuard</text>
-      <text x="184" y="216" font-size="14.5" fill="#9da7b3">Health-focused web platform for guarding and</text>
-      <text x="184" y="238" font-size="14.5" fill="#9da7b3">tracking medical information.</text>
+      <text x="184" y="216" font-size="14.5" fill="#9da7b3">React frontend + Django backend for tracking</text>
+      <text x="184" y="238" font-size="14.5" fill="#9da7b3">and guarding medical information.</text>
       <g class="mono" font-size="12.5">
-        <rect x="184" y="258" width="48" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="208" y="276" text-anchor="middle" fill="#e6edf3">Web</text><rect x="242" y="258" width="72" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="278" y="276" text-anchor="middle" fill="#e6edf3">Health</text>
+        <rect x="184" y="258" width="64" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="216" y="276" text-anchor="middle" fill="#e6edf3">React</text><rect x="258" y="258" width="72" height="27" rx="13.5" fill="#ff6b6b" fill-opacity=".12" stroke="#ff6b6b" stroke-opacity=".5"/><text x="294" y="276" text-anchor="middle" fill="#e6edf3">Django</text>
       </g>
     </g>
   </g>

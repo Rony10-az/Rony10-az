@@ -107,7 +107,7 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rony10-az&theme=tokyo-night&hide_border=true&bg_color=0a0a0a" alt="GitHub activity graph" />
+<img src="./assets/stats-activity.svg" width="100%" alt="Weekly commit activity over the last 16 weeks" />
 
 <!--
   ARCADE GAMES
