@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Rony10-az&style=for-the-badge&color=111111&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Rony10-az.Rony10-az&style=for-the-badge&color=111111&left_text=PROFILE%20VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub followers" />
 <img src="https://img.shields.io/github/stars/Rony10-az?style=for-the-badge&logo=github&logoColor=white&labelColor=111111&color=111111" alt="GitHub stars" />
 
