@@ -5,29 +5,29 @@
     .hdr { font-size: 12px; letter-spacing: 3px; fill: #8a8a8a; }
     .axis { font-size: 11px; fill: #6b6b6b; }
     @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-    .bar { transform: scaleY(0); animation: grow .7s cubic-bezier(.2,.8,.3,1) forwards; }
+    .bar { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: grow .7s cubic-bezier(.2,.8,.3,1) forwards; }
     @media (prefers-reduced-motion: reduce) { .bar { animation: none; transform: scaleY(1); } }
   </style>
   <rect width="900" height="220" rx="14" fill="#0a0a0a"/>
   <text class="hdr" x="30" y="24">WEEKLY ACTIVITY &#183; LAST 16 WEEKS</text>
   <line x1="30" y1="186.5" x2="870" y2="186.5" stroke="#333"/>
 
-    <rect class="bar" x="30.0" y="186" width="43.1" height="45.0" rx="2.5" fill="#ffffff" fill-opacity="0.50" style="animation-delay:0.00s" transform-origin="51.6 186"/>
-    <rect class="bar" x="83.1" y="186" width="43.1" height="75.0" rx="2.5" fill="#ffffff" fill-opacity="0.60" style="animation-delay:0.04s" transform-origin="104.7 186"/>
-    <rect class="bar" x="136.2" y="186" width="43.1" height="60.0" rx="2.5" fill="#ffffff" fill-opacity="0.55" style="animation-delay:0.08s" transform-origin="157.8 186"/>
-    <rect class="bar" x="189.4" y="186" width="43.1" height="90.0" rx="2.5" fill="#ffffff" fill-opacity="0.65" style="animation-delay:0.12s" transform-origin="210.9 186"/>
-    <rect class="bar" x="242.5" y="186" width="43.1" height="105.0" rx="2.5" fill="#ffffff" fill-opacity="0.70" style="animation-delay:0.16s" transform-origin="264.1 186"/>
-    <rect class="bar" x="295.6" y="186" width="43.1" height="75.0" rx="2.5" fill="#ffffff" fill-opacity="0.60" style="animation-delay:0.20s" transform-origin="317.2 186"/>
-    <rect class="bar" x="348.8" y="186" width="43.1" height="120.0" rx="2.5" fill="#ffffff" fill-opacity="0.75" style="animation-delay:0.24s" transform-origin="370.3 186"/>
-    <rect class="bar" x="401.9" y="186" width="43.1" height="97.5" rx="2.5" fill="#ffffff" fill-opacity="0.68" style="animation-delay:0.28s" transform-origin="423.4 186"/>
-    <rect class="bar" x="455.0" y="186" width="43.1" height="135.0" rx="2.5" fill="#ffffff" fill-opacity="0.80" style="animation-delay:0.32s" transform-origin="476.6 186"/>
-    <rect class="bar" x="508.1" y="186" width="43.1" height="105.0" rx="2.5" fill="#ffffff" fill-opacity="0.70" style="animation-delay:0.36s" transform-origin="529.7 186"/>
-    <rect class="bar" x="561.2" y="186" width="43.1" height="150.0" rx="2.5" fill="#ffffff" fill-opacity="0.85" style="animation-delay:0.40s" transform-origin="582.8 186"/>
-    <rect class="bar" x="614.4" y="186" width="43.1" height="127.5" rx="2.5" fill="#ffffff" fill-opacity="0.77" style="animation-delay:0.44s" transform-origin="635.9 186"/>
-    <rect class="bar" x="667.5" y="186" width="43.1" height="90.0" rx="2.5" fill="#ffffff" fill-opacity="0.65" style="animation-delay:0.48s" transform-origin="689.1 186"/>
-    <rect class="bar" x="720.6" y="186" width="43.1" height="112.5" rx="2.5" fill="#ffffff" fill-opacity="0.72" style="animation-delay:0.52s" transform-origin="742.2 186"/>
-    <rect class="bar" x="773.8" y="186" width="43.1" height="82.5" rx="2.5" fill="#ffffff" fill-opacity="0.62" style="animation-delay:0.56s" transform-origin="795.3 186"/>
-    <rect class="bar" x="826.9" y="186" width="43.1" height="60.0" rx="2.5" fill="#ffffff" fill-opacity="0.55" style="animation-delay:0.60s" transform-origin="848.4 186"/>
+    <rect class="bar" x="30.0" y="141.0" width="43.1" height="45.0" rx="2.5" fill="#ffffff" fill-opacity="0.50" style="animation-delay:0.00s"/>
+    <rect class="bar" x="83.1" y="111.0" width="43.1" height="75.0" rx="2.5" fill="#ffffff" fill-opacity="0.60" style="animation-delay:0.04s"/>
+    <rect class="bar" x="136.2" y="126.0" width="43.1" height="60.0" rx="2.5" fill="#ffffff" fill-opacity="0.55" style="animation-delay:0.08s"/>
+    <rect class="bar" x="189.4" y="96.0" width="43.1" height="90.0" rx="2.5" fill="#ffffff" fill-opacity="0.65" style="animation-delay:0.12s"/>
+    <rect class="bar" x="242.5" y="81.0" width="43.1" height="105.0" rx="2.5" fill="#ffffff" fill-opacity="0.70" style="animation-delay:0.16s"/>
+    <rect class="bar" x="295.6" y="111.0" width="43.1" height="75.0" rx="2.5" fill="#ffffff" fill-opacity="0.60" style="animation-delay:0.20s"/>
+    <rect class="bar" x="348.8" y="66.0" width="43.1" height="120.0" rx="2.5" fill="#ffffff" fill-opacity="0.75" style="animation-delay:0.24s"/>
+    <rect class="bar" x="401.9" y="88.5" width="43.1" height="97.5" rx="2.5" fill="#ffffff" fill-opacity="0.68" style="animation-delay:0.28s"/>
+    <rect class="bar" x="455.0" y="51.0" width="43.1" height="135.0" rx="2.5" fill="#ffffff" fill-opacity="0.80" style="animation-delay:0.32s"/>
+    <rect class="bar" x="508.1" y="81.0" width="43.1" height="105.0" rx="2.5" fill="#ffffff" fill-opacity="0.70" style="animation-delay:0.36s"/>
+    <rect class="bar" x="561.2" y="36.0" width="43.1" height="150.0" rx="2.5" fill="#ffffff" fill-opacity="0.85" style="animation-delay:0.40s"/>
+    <rect class="bar" x="614.4" y="58.5" width="43.1" height="127.5" rx="2.5" fill="#ffffff" fill-opacity="0.77" style="animation-delay:0.44s"/>
+    <rect class="bar" x="667.5" y="96.0" width="43.1" height="90.0" rx="2.5" fill="#ffffff" fill-opacity="0.65" style="animation-delay:0.48s"/>
+    <rect class="bar" x="720.6" y="73.5" width="43.1" height="112.5" rx="2.5" fill="#ffffff" fill-opacity="0.72" style="animation-delay:0.52s"/>
+    <rect class="bar" x="773.8" y="103.5" width="43.1" height="82.5" rx="2.5" fill="#ffffff" fill-opacity="0.62" style="animation-delay:0.56s"/>
+    <rect class="bar" x="826.9" y="126.0" width="43.1" height="60.0" rx="2.5" fill="#ffffff" fill-opacity="0.55" style="animation-delay:0.60s"/>
   <text class="axis" x="30" y="210">16 weeks ago</text>
   <text class="axis" x="870" y="210" text-anchor="end">today</text>
   <rect x=".5" y=".5" width="899" height="219" rx="14" fill="none" stroke="#333"/>

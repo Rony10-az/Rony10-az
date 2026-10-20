@@ -25,10 +25,8 @@
     @keyframes blink   { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
     @keyframes pulse   { 0%,100% { r: 5; opacity:1; } 50% { r: 8; opacity:.45; } }
     @keyframes breathe { 0%,100% { opacity:.07; } 50% { opacity:.16; } }
-    @keyframes sweep  { from { transform: translateX(-120px) skewX(-20deg); } to { transform: translateX(300px) skewX(-20deg); } }
     @keyframes arrow  { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
     @keyframes orbit  { to { stroke-dashoffset: -1000; } }
-    .sweep { animation: sweep 3.2s ease-in-out infinite; }
     .arrow { animation: arrow 1.4s ease-in-out infinite; }
     .orbit { stroke-dasharray: 160 840; animation: orbit 5s linear infinite; }
 
@@ -56,7 +54,7 @@
       .grid,.rain,.beam,.hi,.name,.ghost,.s,.p,.ring1,.ring2,.ring3,.node,.eq,.cur,.halo { animation: none; }
       .hi { opacity:1; } .name { stroke-dashoffset:0; fill-opacity:1; } .s1 { opacity:1; }
       .eq { transform: none; }
-      .sweep,.arrow,.orbit { animation: none; }
+      .arrow,.orbit { animation: none; }
     }
   </style>
 
@@ -84,7 +82,6 @@
       <stop offset="45%" stop-color="#0a0a0a" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0.25"/>
     </linearGradient>
-    <clipPath id="pill"><rect width="260" height="56" rx="28"/></clipPath>
   </defs>
 
   <g clip-path="url(#panel)">
@@ -155,10 +152,7 @@
 
     <a xlink:href="https://rony10-az.github.io" target="_blank">
       <g transform="translate(320 414)">
-        <g clip-path="url(#pill)">
-          <rect width="260" height="56" fill="#0a0a0a"/>
-          <rect class="sweep" x="0" y="0" width="50" height="56" fill="#ffffff" opacity=".12"/>
-        </g>
+        <rect width="260" height="56" rx="28" fill="#0a0a0a"/>
         <rect x=".5" y=".5" width="259" height="55" rx="27.5" fill="none" stroke="#444444"/>
         <rect class="orbit" x="1" y="1" width="258" height="54" rx="27" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" pathLength="1000"/>
         <text x="34" y="34" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff">View my portfolio</text>
