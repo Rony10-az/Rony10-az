@@ -112,19 +112,17 @@
 
     <rect y="200" width="900" height="260" fill="url(#vign)"/>
 
-    <rect class="eq" x="520" y="296" width="6" height="34" rx="3" style="animation-duration:1.6s;animation-delay:-1.58s"/>
-    <rect class="eq" x="548" y="306" width="6" height="24" rx="3" style="animation-duration:0.91s;animation-delay:-0.96s"/>
-    <rect class="eq" x="576" y="306" width="6" height="24" rx="3" style="animation-duration:1.14s;animation-delay:-1.12s"/>
-    <rect class="eq" x="604" y="311" width="6" height="19" rx="3" style="animation-duration:1.7s;animation-delay:-1.56s"/>
-    <rect class="eq" x="632" y="320" width="6" height="10" rx="3" style="animation-duration:0.92s;animation-delay:-0.12s"/>
-    <rect class="eq" x="660" y="301" width="6" height="29" rx="3" style="animation-duration:1.36s;animation-delay:-1.52s"/>
-    <rect class="eq" x="688" y="320" width="6" height="10" rx="3" style="animation-duration:1.36s;animation-delay:-1.4s"/>
-    <rect class="eq" x="716" y="304" width="6" height="26" rx="3" style="animation-duration:0.85s;animation-delay:-0.44s"/>
-    <rect class="eq" x="744" y="312" width="6" height="18" rx="3" style="animation-duration:1.68s;animation-delay:-0.64s"/>
-    <rect class="eq" x="772" y="307" width="6" height="23" rx="3" style="animation-duration:0.89s;animation-delay:-0.77s"/>
-    <rect class="eq" x="800" y="298" width="6" height="32" rx="3" style="animation-duration:1.66s;animation-delay:-1.0s"/>
-    <rect class="eq" x="828" y="315" width="6" height="15" rx="3" style="animation-duration:1.57s;animation-delay:-1.09s"/>
-    <rect class="eq" x="856" y="300" width="6" height="30" rx="3" style="animation-duration:1.48s;animation-delay:-1.32s"/>
+    <rect class="eq" x="332" y="431" width="6" height="19" rx="3" style="animation-duration:1.7s;animation-delay:-1.56s"/>
+    <rect class="eq" x="355" y="440" width="6" height="10" rx="3" style="animation-duration:0.92s;animation-delay:-0.12s"/>
+    <rect class="eq" x="378" y="421" width="6" height="29" rx="3" style="animation-duration:1.36s;animation-delay:-1.52s"/>
+    <rect class="eq" x="401" y="440" width="6" height="10" rx="3" style="animation-duration:1.36s;animation-delay:-1.4s"/>
+    <rect class="eq" x="424" y="424" width="6" height="26" rx="3" style="animation-duration:0.85s;animation-delay:-0.44s"/>
+    <rect class="eq" x="447" y="432" width="6" height="18" rx="3" style="animation-duration:1.68s;animation-delay:-0.64s"/>
+    <rect class="eq" x="470" y="427" width="6" height="23" rx="3" style="animation-duration:0.89s;animation-delay:-0.77s"/>
+    <rect class="eq" x="493" y="418" width="6" height="32" rx="3" style="animation-duration:1.66s;animation-delay:-1.0s"/>
+    <rect class="eq" x="516" y="435" width="6" height="15" rx="3" style="animation-duration:1.57s;animation-delay:-1.09s"/>
+    <rect class="eq" x="539" y="420" width="6" height="30" rx="3" style="animation-duration:1.48s;animation-delay:-1.32s"/>
+    <rect class="eq" x="562" y="428" width="6" height="22" rx="3" style="animation-duration:1.05s;animation-delay:-0.08s"/>
     <circle class="p" cx="236" cy="390" r="1.5" style="animation-duration:9.7s;animation-delay:-1.7s"/>
     <circle class="p" cx="414" cy="390" r="2.2" style="animation-duration:10.2s;animation-delay:-1.3s"/>
     <circle class="p" cx="686" cy="390" r="1.9" style="animation-duration:8.3s;animation-delay:-1.0s"/>
@@ -148,10 +146,9 @@
 
     <rect class="beam" x="-340" y="-60" width="150" height="500" fill="url(#beamg)" transform="skewX(-18)"/>
 
-    <line x1="56" y1="400" x2="844" y2="400" stroke="#222"/>
 
     <a xlink:href="https://rony10-az.github.io" target="_blank">
-      <g transform="translate(320 414)">
+      <g transform="translate(320 320)">
         <rect width="260" height="56" rx="28" fill="#0a0a0a"/>
         <rect x=".5" y=".5" width="259" height="55" rx="27.5" fill="none" stroke="#444444"/>
         <rect class="orbit" x="1" y="1" width="258" height="54" rx="27" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" pathLength="1000"/>

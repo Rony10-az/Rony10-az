@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" role="presentation" aria-hidden="true">
   <style>
-    @keyframes run  {{ from {{ transform: translateX(-60px); }} to {{ transform: translateX(960px); }} }}
-    @keyframes dash {{ to {{ stroke-dashoffset: -60; }} }}
-    @keyframes tick {{ 0%,100% {{ opacity:.18; }} 50% {{ opacity:.5; }} }}
-    .pulse {{ animation: run 4.5s linear infinite; }}
-    .line  {{ stroke-dasharray: 6 9; animation: dash 3s linear infinite; }}
-    .t     {{ animation: tick 3s ease-in-out infinite; }}
-    @media (prefers-reduced-motion: reduce) {{ .pulse,.line,.t {{ animation: none; }} }}
+    @keyframes run  { from { transform: translateX(-60px); } to { transform: translateX(960px); } }
+    @keyframes dash { to { stroke-dashoffset: -60; } }
+    @keyframes tick { 0%,100% { opacity:.18; } 50% { opacity:.5; } }
+    .pulse { animation: run 4.5s linear infinite; }
+    .line  { stroke-dasharray: 6 9; animation: dash 3s linear infinite; }
+    .t     { animation: tick 3s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse,.line,.t { animation: none; } }
   </style>
   <defs>
     <linearGradient id="pg" x1="0" x2="1" y1="0" y2="0">

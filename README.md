@@ -62,11 +62,11 @@
 
 <br/>
 
-<a href="https://github.com/Rony10-az/Desarrollo_Aplicaciones_Avanzado"><img src="https://img.shields.io/badge/Curso_de_JavaScript-58a6ff?style=for-the-badge&labelColor=111111" alt="Curso de JavaScript repository" /></a>
-<a href="https://github.com/Rony10-az/SecureDocs"><img src="https://img.shields.io/badge/SecureDocs-f59e0b?style=for-the-badge&labelColor=111111" alt="SecureDocs repository" /></a>
-<a href="https://github.com/Rony10-az/Desarrollo-de-Soluciones-en-la-Nube"><img src="https://img.shields.io/badge/Monito_%E2%80%93_Load_Balancing-c084fc?style=for-the-badge&labelColor=111111" alt="Monito - Load Balancing repository" /></a>
-<a href="https://github.com/Rony10-az/TechSotre"><img src="https://img.shields.io/badge/Tech_Store-4ade80?style=for-the-badge&labelColor=111111" alt="Tech Store repository" /></a>
-<a href="https://github.com/Rony10-az/mediguard_web"><img src="https://img.shields.io/badge/MediGuard-ff6b6b?style=for-the-badge&labelColor=111111" alt="MediGuard repository" /></a>
+<a href="https://github.com/Rony10-az/Desarrollo_Aplicaciones_Avanzado"><img src="https://img.shields.io/badge/Curso_de_JavaScript-111111?style=for-the-badge&labelColor=111111" alt="Curso de JavaScript repository" /></a>
+<a href="https://github.com/Rony10-az/SecureDocs"><img src="https://img.shields.io/badge/SecureDocs-111111?style=for-the-badge&labelColor=111111" alt="SecureDocs repository" /></a>
+<a href="https://github.com/Rony10-az/Desarrollo-de-Soluciones-en-la-Nube"><img src="https://img.shields.io/badge/Monito_%E2%80%93_Load_Balancing-111111?style=for-the-badge&labelColor=111111" alt="Monito - Load Balancing repository" /></a>
+<a href="https://github.com/Rony10-az/TechSotre"><img src="https://img.shields.io/badge/Tech_Store-111111?style=for-the-badge&labelColor=111111" alt="Tech Store repository" /></a>
+<a href="https://github.com/Rony10-az/mediguard_web"><img src="https://img.shields.io/badge/MediGuard-111111?style=for-the-badge&labelColor=111111" alt="MediGuard repository" /></a>
 
 </div>
 
