@@ -110,7 +110,7 @@
       <text class="mono" x="720" y="188" font-size="52" font-weight="700" text-anchor="middle" fill="#fff">&lt;/&gt;</text>
     </g>
 
-    <rect y="200" width="900" height="180" fill="url(#vign)"/>
+    <rect y="200" width="900" height="260" fill="url(#vign)"/>
 
     <rect class="eq" x="520" y="296" width="6" height="34" rx="3" style="animation-duration:1.6s;animation-delay:-1.58s"/>
     <rect class="eq" x="548" y="306" width="6" height="24" rx="3" style="animation-duration:0.91s;animation-delay:-0.96s"/>
