@@ -2,6 +2,8 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Hi, I'm RONY — Full Stack Developer and Software Engineering student at Tecsup" />
 
+<br/><br/>
+
 <a href="https://rony10-az.github.io"><img src="./assets/portfolio-button.svg" height="56" alt="View my portfolio" /></a>
 
 <br/><br/>
